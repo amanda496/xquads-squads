@@ -1,0 +1,130 @@
+workflow:
+  id: wf-launch-campaign
+  name: "Launch Campaign — Lançar Campanha"
+  description: "Brief → Criativo aprovado → Setup técnico → Publicar com estrutura Stark"
+  version: "1.0.0"
+  orchestrator: traffic-chief
+  estimated_duration: "45-90 min"
+
+phases:
+  - id: phase_1_brief
+    name: "BRIEF — Definir objetivo e estrutura"
+    agent: traffic-chief
+    duration: "10-15 min"
+
+    inputs:
+      - "Nome do cliente e conta Meta Ads"
+      - "Produto/procedimento da campanha"
+      - "Objetivo: Leads (WPP/DIRECT/FORM), Tráfego, Mensagens"
+      - "Orçamento disponível (diário ou mensal)"
+      - "Fase: TESTE ou ESCALA"
+      - "Estágio do funil: TOFU, MOFU ou BOFU"
+
+    steps:
+      - "Identificar funil (TOFU/MOFU/BOFU) e objetivo correto"
+      - "Definir estrutura: ABO (teste) ou CBO (escala)"
+      - "Definir públicos necessários por estágio"
+      - "Definir criativos necessários (tipo, quantidade, formato)"
+      - "Calcular orçamento por conjunto"
+      - "Verificar proibições inegociáveis antes de prosseguir"
+
+    outputs:
+      - "Brief completo com funil, objetivo, estrutura e públicos"
+      - "Lista de criativos necessários"
+      - "Orçamento por conjunto"
+
+    checkpoint:
+      question: "Brief completo e proibições verificadas?"
+      pass_criteria:
+        - "Funil identificado (não há campanha sem estágio definido)"
+        - "Estrutura ABO ou CBO definida com justificativa"
+        - "Proibições inegociáveis checadas: sem Advantage+, sem posicionamento auto"
+      veto_conditions:
+        - "Campanha mistura CORPO + FACE → VETO"
+        - "Objetivo 'Alcance' ou 'Engajamento' para BOFU → VETO (use Mensagens ou Leads)"
+        - "Advantage+ Audience planejado → VETO"
+
+  - id: phase_2_publicos
+    name: "PÚBLICOS — Criar segmentações antes da campanha"
+    agent: media-buyer
+    duration: "15-20 min"
+    depends_on: phase_1_brief
+
+    steps:
+      - "Criar públicos frios (LAL 1% lista, interesses luxo/profissões) para TOFU"
+      - "Criar públicos quentes (Engajamento 90D, 180D, Seguidores) para BOFU"
+      - "Criar públicos MOFU (Visitantes perfil 90D, Engajamento)"
+      - "Verificar tamanho de cada público (mínimo 1.000 pessoas)"
+      - "Documentar públicos criados com nome padronizado"
+
+    outputs:
+      - "Públicos criados e documentados por estágio de funil"
+
+    checkpoint:
+      question: "Públicos criados antes de iniciar campanha?"
+      pass_criteria:
+        - "Todos os públicos necessários criados"
+        - "Tamanho mínimo de 1.000 por público"
+      veto_conditions:
+        - "Criar campanha sem públicos prontos → VETO"
+        - "Público com tamanho < 1.000 → VETO para segmentação fria"
+
+  - id: phase_3_setup
+    name: "SETUP — Configurar campanha no Gerenciador"
+    agent: media-buyer
+    duration: "20-30 min"
+    depends_on: phase_2_publicos
+
+    steps:
+      - "Nomear campanha com nomenclatura Stark: [FUNIL][OBJETIVO][PRODUTO][TIPO][ORÇAMENTO]"
+      - "Configurar objetivo de campanha correto"
+      - "Definir orçamento ABO (por conjunto) ou CBO (por campanha)"
+      - "Nomear conjuntos: [NUMERAÇÃO-PÚBLICO][CONVERSÃO][GEO]"
+      - "Configurar posicionamento: MANUAL — Feed + Stories (IG + FB)"
+      - "Configurar idade: 25-55 anos (MANUAL)"
+      - "Desativar Advantage+ Audience e todos os automáticos"
+      - "Configurar CTA manual (ex: Agende Agora, Enviar mensagem)"
+      - "Subir criativos com nomenclatura: [DATA][NOME][FORMATO][VARIAÇÃO][TIPO]"
+      - "Verificar URLs e UTMs em todos os anúncios"
+
+    outputs:
+      - "Campanha configurada com nomenclatura Stark em todos os níveis"
+      - "Gate de proibições 100% aprovado"
+
+    checkpoint:
+      question: "Gate de proibições passou 100%?"
+      pass_criteria:
+        - "Nomenclatura Stark em campanha, conjunto e anúncio"
+        - "Posicionamento: Feed + Stories (manual)"
+        - "Idade: 25-55 (manual)"
+        - "CTA: manual definido"
+        - "Advantage+: desativado em tudo"
+        - "URLs e UTMs conferidos"
+      veto_conditions:
+        - "Qualquer item do gate reprovado → VETO: não publicar"
+        - "Nomenclatura incorreta → VETO: corrigir antes de publicar"
+
+  - id: phase_4_publicar
+    name: "PUBLICAR — Ativar e agendar revisão"
+    agent: media-buyer
+    duration: "5 min"
+    depends_on: phase_3_setup
+
+    steps:
+      - "Publicar campanha após aprovação do gate"
+      - "Confirmar status 'Ativo' no Gerenciador"
+      - "Registrar data e hora de publicação"
+      - "Agendar revisão D+7 (daily review)"
+      - "Comunicar ao @traffic-chief: campanha no ar"
+
+    outputs:
+      - "Campanha publicada e ativa"
+      - "Revisão D+7 agendada"
+
+    checkpoint:
+      question: "Campanha publicada e revisão agendada?"
+      pass_criteria:
+        - "Status 'Ativo' confirmado"
+        - "Revisão D+7 no calendário"
+      veto_conditions:
+        - "Publicar sem confirmação do gate → VETO"

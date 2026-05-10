@@ -1,0 +1,95 @@
+workflow:
+  id: wf-daily-review
+  name: "Daily Review — Análise de Campanhas"
+  description: "Pull dados → Diagnóstico por campanha/conjunto/criativo → Plano de ação"
+  version: "1.0.0"
+  orchestrator: traffic-chief
+  estimated_duration: "30-60 min"
+
+phases:
+  - id: phase_1_pull_dados
+    name: "PULL — Coletar dados do Gerenciador"
+    agent: analytics-analyst
+    duration: "10-15 min"
+
+    inputs:
+      - "Acesso ao Gerenciador de Anúncios da conta"
+      - "Período de análise: 14D, 7D, 4D, 3D, Ontem, Hoje"
+
+    steps:
+      - "Instalar colunas padrão Stark (CPL, CPM, CTR, CPC, Valor Gasto, Leads)"
+      - "Filtrar por período 7D — ordenar por CPL"
+      - "Exportar dados por campanha, conjunto e anúncio"
+      - "Registrar métricas em tabela comparativa por período"
+
+    outputs:
+      - "Tabela de performance por campanha (todos os períodos)"
+      - "Tabela de performance por conjunto de anúncios"
+      - "Tabela de performance por criativo (CTR, CPC, CPL)"
+
+    checkpoint:
+      question: "Dados suficientes para análise?"
+      pass_criteria:
+        - "Pelo menos 7 dias de dado por campanha"
+        - "Gasto mínimo de 2x CPL meta por conjunto analisado"
+      veto_conditions:
+        - "Menos de 3 dias de dado → não analisar, aguardar"
+        - "Gasto menor que 1x CPL meta por conjunto → dado insuficiente"
+
+  - id: phase_2_diagnostico
+    name: "DIAGNÓSTICO — Identificar gargalos e tendências"
+    agent: analytics-analyst
+    duration: "15-20 min"
+    depends_on: phase_1_pull_dados
+
+    steps:
+      - "Comparar CPL 7D vs 14D vs tendência recente (4D/3D/Ontem)"
+      - "Para cada campanha: classificar como BOM / MÉDIA / RUIM vs meta CPL"
+      - "Identificar gargalo: CPM alto (público) / CTR baixo (criativo) / Conversão baixa (oferta)"
+      - "Verificar conjuntos que estão roubando verba sozinhos (CBO)"
+      - "Identificar criativos dominantes (>80% verba) e classificar performance"
+      - "Mapear tendência: piora consistente / reversão / volatilidade / estável"
+
+    outputs:
+      - "Diagnóstico por campanha com gargalo identificado"
+      - "Classificação de tendência por período"
+      - "Lista de conjuntos e criativos para ação"
+
+    checkpoint:
+      question: "Diagnóstico completo com gargalo identificado?"
+      pass_criteria:
+        - "Cada campanha tem classificação (BOM/MÉDIA/RUIM)"
+        - "Gargalo identificado (CPM/CTR/Conversão) para campanhas problemáticas"
+        - "Tendência classificada com período de referência"
+      veto_conditions:
+        - "Recomendar ação sem identificar gargalo → VETO"
+        - "Classificar campanha como RUIM com menos de 3 dias de dado → VETO"
+
+  - id: phase_3_plano_acao
+    name: "PLANO DE AÇÃO — Decisões e execução"
+    agent: traffic-chief
+    duration: "10-15 min"
+    depends_on: phase_2_diagnostico
+
+    steps:
+      - "Aplicar Matriz de Decisão Stark por campanha"
+      - "Definir ações: Manter / Escalar / Reduzir orçamento / Pausar"
+      - "Para conjuntos CBO dominantes: pausar não-performantes ou escalar único"
+      - "Para criativos em fadiga: briefar novos via @creative-strategist"
+      - "Priorizar ações por impacto (maior gasto com pior CPL = prioridade)"
+      - "Delegar execução para @media-buyer"
+
+    outputs:
+      - "Plano de ação com decisão por campanha/conjunto/criativo"
+      - "Lista de ajustes para @media-buyer executar"
+      - "Briefing de criativos novos (se necessário)"
+
+    checkpoint:
+      question: "Plano de ação completo e priorizado?"
+      pass_criteria:
+        - "Toda campanha tem decisão documentada"
+        - "Ações ordenadas por prioridade de impacto"
+        - "Responsável definido para cada ação"
+      veto_conditions:
+        - "Pausar campanha sem justificativa baseada em dado → VETO"
+        - "Escalar campanha sem CPL validado por 7D → VETO"

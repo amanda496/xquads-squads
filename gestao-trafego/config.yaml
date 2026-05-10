@@ -1,0 +1,109 @@
+tested: true
+
+squad:
+  name: gestao-trafego
+  version: 1.0.0
+  short-title: Gestão de Tráfego Stark
+  description: >-
+    Squad de tráfego pago baseado no Método Stark de Otimizações Meta Ads.
+    Conecta criativo, mídia e dados para maximizar performance de campanhas.
+    Cobre lançamento de campanhas, daily review, scale-or-kill e relatórios.
+  author: Stark Marketing
+  icon: "🚦"
+  entry_agent: traffic-chief
+  slashPrefix: trafego
+
+workspace_integration:
+  level: none
+  rationale: "Squad self-contained — não requer integração com workspace"
+  read_paths: []
+  write_paths: []
+  template_namespace: trafego
+
+pattern_library:
+  prefix: GT
+  naming_convention:
+    format: "{PREFIX}-{CATEGORY}-{NUMBER}"
+    example: "GT-TP-001"
+  categories:
+    - id: TP
+      name: "Task Patterns"
+      description: "Padrões para estrutura de otimização de campanhas"
+    - id: EP
+      name: "Executor Patterns"
+      description: "Padrões para seleção de executor por tarefa"
+    - id: PP
+      name: "Process Patterns"
+      description: "Padrões de workflow de tráfego"
+    - id: AP
+      name: "Automation Patterns"
+      description: "Padrões para automações de relatório e análise"
+
+task_standards:
+  enforce_anatomy: true
+  validator: "GT-TP-001"
+  required_fields:
+    - task_name
+    - status
+    - responsible_executor
+    - execution_type
+    - input
+    - output
+    - action_items
+    - acceptance_criteria
+  optional_fields:
+    - estimated_time
+    - dependencies
+    - quality_gate
+
+executor_types:
+  human:
+    id: "GT-EP-001"
+    use_for: ["Decisões de pausa/escala com impacto alto", "Aprovação de criativos com cliente"]
+  agent:
+    id: "GT-EP-002"
+    use_for: ["Análise de performance", "Diagnóstico de gargalo", "Geração de relatório"]
+  hybrid:
+    id: "GT-EP-003"
+    use_for: ["Daily review", "Decisão de scale-or-kill assistida por dados"]
+  worker:
+    id: "GT-EP-004"
+    use_for: ["Pull de dados do Gerenciador", "Aplicação de nomenclatura", "Registro de alterações"]
+
+workflow_config:
+  checkpoint_policy: always_active
+  fail_fast: true
+  allow_manual_override: false
+
+tier_structure:
+  tier_0:
+    role: "Orquestração e decisão estratégica"
+    agents: ["traffic-chief"]
+  tier_1:
+    role: "Execução especializada"
+    agents: ["media-buyer", "analytics-analyst"]
+  tier_2:
+    role: "Suporte criativo (v2 — não implementado)"
+    agents: ["creative-strategist"]
+
+entry_points:
+  launch_campaign: "*launch-campaign"
+  daily_review: "*daily-review"
+  scale_or_kill: "*scale-or-kill"
+  onboarding: "*onboarding"
+
+keywords:
+  - meta ads
+  - tráfego pago
+  - campanhas
+  - CPL
+  - ROAS
+  - otimização
+  - gestão de tráfego
+  - facebook ads
+  - instagram ads
+  - media buyer
+  - analytics
+  - performance
+  - funil
+  - TOFU MOFU BOFU
