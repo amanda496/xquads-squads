@@ -1,0 +1,116 @@
+workflow:
+  id: wf-scale-or-kill
+  name: "Scale or Kill — Decisão de Escala ou Pausa"
+  description: "Thresholds → Decisão fundamentada → Executar (escalar, manter ou pausar)"
+  version: "1.0.0"
+  orchestrator: traffic-chief
+  estimated_duration: "15-30 min"
+
+thresholds:
+  cpl_bom: "CPL < Meta do cliente"
+  cpl_media: "CPL = Meta do cliente (±10%)"
+  cpl_ruim: "CPL > Meta do cliente"
+  dado_minimo: "Gasto ≥ 2x CPL meta antes de qualquer decisão"
+  periodo_base: "7 dias (mínimo para análise estrutural)"
+
+phases:
+  - id: phase_1_verificar_dado
+    name: "VERIFICAR — Dado mínimo para decisão"
+    agent: analytics-analyst
+    duration: "5 min"
+
+    steps:
+      - "Verificar gasto total do conjunto/campanha vs dado mínimo (2x CPL meta)"
+      - "Verificar período mínimo (3 dias para tendência, 7 dias para decisão estrutural)"
+      - "Se dado insuficiente → aguardar, não decidir"
+
+    outputs:
+      - "Confirmação de dado suficiente ou alerta de aguardar"
+
+    checkpoint:
+      veto_conditions:
+        - "Gasto < 2x CPL meta → VETO: dado insuficiente para decisão"
+        - "Menos de 3 dias rodando → VETO: aguardar tendência"
+
+  - id: phase_2_aplicar_matriz
+    name: "MATRIZ — Aplicar decisão Stark"
+    agent: traffic-chief
+    duration: "10-15 min"
+    depends_on: phase_1_verificar_dado
+
+    decision_rules:
+      campanha_cbo_conjunto_unico:
+        condicao: "Apenas 1 conjunto consumindo verba em CBO"
+        se_bom: "Pausar outros conjuntos + escalar orçamento 20%"
+        se_medio: "Pausar outros conjuntos + manter orçamento"
+        se_ruim: "Pausar conjunto problemático + liberar verba aos demais"
+
+      campanha_7d_boa_recente_ruim:
+        condicao: "CPL 7D bom, CPL 4D/3D/Ontem piorando"
+        se_7d_abaixo: "Manter — tendência histórica positiva ainda válida"
+        se_7d_igual: "Reduzir orçamento 20%, monitorar 48h"
+        acao_complementar: "Se piora persiste 48h → reduzir mais ou pausar"
+
+      campanha_7d_ruim_recente_melhora:
+        condicao: "CPL 7D ruim, CPL recente (3D/Ontem) melhora"
+        se_volume_bom: "Manter ou escalar 10% — reversão de tendência"
+        se_volume_baixo: "Manter + aguardar mais 48h de dado"
+
+      criativo_dominante:
+        condicao: "1 criativo consumindo >80% da verba"
+        se_bom: "Manter + subir nova campanha com criativos não usados"
+        se_ruim: "Pausar criativo + liberar verba aos demais"
+
+      escala_padrao:
+        incremento_maximo: "20-30% de orçamento por vez"
+        frequencia: "No máximo 1 escala a cada 72h"
+        monitorar: "CPM pode subir temporariamente após escala — normal até 48h"
+
+    steps:
+      - "Classificar cada campanha/conjunto: BOM / MÉDIA / RUIM vs meta"
+      - "Identificar qual regra da matriz se aplica"
+      - "Definir decisão: ESCALAR / MANTER / REDUZIR / PAUSAR"
+      - "Calcular novo orçamento (se escala ou redução)"
+      - "Documentar justificativa com dado específico"
+
+    outputs:
+      - "Decisão por item (campanha/conjunto/criativo) com justificativa"
+      - "Novos orçamentos calculados"
+      - "Lista de ações para @media-buyer"
+
+    checkpoint:
+      question: "Decisão fundamentada em dado real?"
+      pass_criteria:
+        - "Toda decisão tem período de análise e CPL referenciado"
+        - "Escala não excede 30% por vez"
+        - "Pausa tem CPL ruim documentado por pelo menos 3 dias"
+      veto_conditions:
+        - "Escalar mais de 30% de uma vez → VETO"
+        - "Pausar sem dado de 3+ dias → VETO"
+        - "Decisão baseada em feeling sem dado → VETO"
+
+  - id: phase_3_executar
+    name: "EXECUTAR — Aplicar ajustes"
+    agent: media-buyer
+    duration: "5-10 min"
+    depends_on: phase_2_aplicar_matriz
+
+    steps:
+      - "Receber lista de ações do @traffic-chief"
+      - "Ajustar orçamentos no Gerenciador de Anúncios"
+      - "Pausar conjuntos/criativos indicados"
+      - "Registrar cada alteração com data, hora e justificativa"
+      - "Confirmar execução ao @traffic-chief"
+
+    outputs:
+      - "Confirmação de todas as ações executadas"
+      - "Log de alterações com timestamp"
+
+    checkpoint:
+      question: "Todas as ações foram executadas e registradas?"
+      pass_criteria:
+        - "Cada ação tem confirmação de execução"
+        - "Log de alterações documentado"
+      veto_conditions:
+        - "Executar ação sem registro → VETO"
+        - "Alterar campanha não listada no plano → VETO"
