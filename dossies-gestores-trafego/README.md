@@ -1,131 +1,119 @@
-# Dossiês — Gestores de Tráfego Pago · Stark Marketing
+# Dossiês — Pessoas da Área de Tráfego Pago · Stark Marketing
 
-> **Confidencial — uso restrito da liderança.** Contém avaliação individual de desempenho,
-> pleitos de carreira e informações de acompanhamento pessoal. Não distribuir fora da
-> liderança da área e do RH. Se este repositório for público ou vier a ser publicado,
-> mover esta pasta para um local privado.
+> **Confidencial — uso restrito da liderança.** Contém avaliação individual, pleitos de carreira e
+> contexto pessoal de acompanhamento. Não distribuir fora da liderança da área e do RH. Se este
+> repositório for público ou vier a ser publicado, mover esta pasta para um local privado.
 
-**Finalidade:** handover da área de Tráfego Pago. Amanda Neves (Head de Tráfego) deixa a área
-em **21/08/2026**; **Anderson Silva** e **Silvanio Guimarães** assumem interinamente até a
-definição de nova liderança (comunicado na Reunião de Área de 20/08/2026).
+**Finalidade:** handover de **pessoas**, não de contas. Amanda Neves deixa a liderança da área em
+**21/08/2026**; Anderson Silva e Silvanio Guimarães assumem interinamente até a definição de nova
+liderança (comunicado na Reunião de Área de 20/08/2026).
 
-**Fonte dos dossiês:** reuniões de área, reuniões de resultados/PRA, X1s individuais conduzidos
-por Amanda e o painel de resultados de julho/2026. Cada dossiê traz as fontes com data no final.
+Cada dossiê responde a uma pergunta só: **como trabalhar bem com esta pessoa.** Quem ela é, como
+trabalha, como se comunica, o que a move, onde ela é forte, onde precisa desenvolver, como está a
+carga — e o manual prático de condução.
 
-**Data de corte:** 21/08/2026.
+**Fonte:** X1s individuais conduzidos pela Amanda ao longo de 2026, reuniões de área e reuniões de
+resultados/PRA. Cada afirmação é datada e rastreável ao documento de origem, listado no final de
+cada dossiê.
 
----
-
-## Índice
-
-| # | Gestor | Contas | % na meta (CPS Topo) | Var. CPS julho | Leitura de uma linha |
-|---|---|---|---|---|---|
-| [1](01-mateus-borgo.md) | **Mateus Borgo** | 11 | 72,7% | **−21,0%** | Melhor combinação do time; candidato natural a referência técnica |
-| [2](02-wallison-lima.md) | **Wallison J. R. Lima** | 12 | 58,3% | **−40,6%** | Maior queda de CPS do mês; cede a pressão de cliente contra a diretriz |
-| [3](03-thiago-manoel.md) | **Thiago Manoel** | 14 | 57,1% | +4,2% | Melhor CPS absoluto; travado por dependências de CRM; pleito de mérito em aberto |
-| [4](04-vinicius-lima.md) | **Vinicius Lima** | 17 | 52,9% | −0,8% | Maior carteira da área; escala às custas de profundidade (fundo de funil) |
-| [5](05-luiz-eduardo-oliveira.md) | **Luiz Eduardo Oliveira** | 15 | 46,7% | +16,1% | **Risco de retenção alto** — pediu transição para edição de vídeo |
-| [6](06-nicole-belter.md) | **Nicole Belter** | 10 | 40,0% | +25,6% | 2 meses de casa, maior adesão ao método (80%), curva de aprendizado |
-| [7](07-gustavo-radler.md) | **Gustavo Radler** | 15 | 40,0% | +6,8% | Sênior técnico forte; menor adesão ao método (35,7%) e registros em atraso |
-
-Fora do escopo destes dossiês, mas presentes na área: **Richard Tahara** (2 contas, 100% na meta
-em julho) e **Fábio Santos** (carteira redistribuída entre os gestores em julho/2026).
+**Ordem dos dossiês:** por senioridade e tempo na área — não é ranking de desempenho.
 
 ---
 
-## Onde a área está
+## As sete pessoas
 
-Números de julho/2026 (painel de acompanhamento — meta de CPS Topo ≤ R$ 2,59):
+| # | Pessoa | Perfil em uma linha | O que a move | Principal ponto de atenção |
+|---|---|---|---|---|
+| [1](01-mateus-borgo.md) | **Mateus Borgo**<br>Sênior (promovido em jul/26) | O mais confiável do time; resolve e depois conta | Aprender e ser útil ao time | Não pede socorro — absorve sobrecarga em silêncio |
+| [2](02-gustavo-radler.md) | **Gustavo Radler**<br>Sênior | O técnico da área; dono das integrações e do CRM | Resolver problema técnico e ter autonomia | Disciplina de registro — 3 ciclos de feedback no mesmo tema |
+| [3](03-vinicius-lima.md) | **Vinicius Lima**<br>Sênior, ex-liderança | O veterano que absorve o excedente da área | Construir processo, escrever, ter autonomia | Confia na memória em vez do sistema |
+| [4](04-thiago-manoel.md) | **Thiago Manoel**<br>Gestor | O mais analítico; chega na causa, não no sintoma | Entender o problema até o fim; reconhecimento | **Pleito de mérito sem resposta desde 29/07** |
+| [5](05-wallison-lima.md) | **Wallison J. R. Lima**<br>Gestor | O executor de maior volume; trabalha sozinho demais | Ver a conta virar; proximidade com cliente | Cede à pressão do cliente contra a diretriz do time |
+| [6](06-luiz-eduardo-oliveira.md) | **Luiz Eduardo Oliveira**<br>Gestor | Gestor de relacionamento; forte com pessoas | Produção técnica/criativa; reconhecimento financeiro | **Pediu mudança de área e avalia sair — decisão pendente** |
+| [7](07-nicole-belter.md) | **Nicole Belter**<br>Gestora, 2 meses de casa | A mais aderente ao método; ainda aprendendo o nicho | Aprender o nicho; fazer certo pelo processo | Registro irregular e pouca voz em reunião |
 
-| Indicador | Valor |
-|---|---|
-| Contas ativas | 96 |
-| CPS Topo agregado da área | R$ 1,65 → **R$ 1,53** (−7,3% no mês) |
-| Contas na meta (última semana) | 55 de 96 |
-| % de contas na meta / excelente | 53,1% |
-| Carteira dentro da estrutura Andrômeda | 62,5% (60/96) |
-| Conclusão do rollout por etapa | Topo **44,2%** · Meio **9,1%** · Fundo **6,5%** |
-| Contas acima da meta no fechamento | 38 de 87 com dados |
+Fora do escopo destes dossiês, mas presentes na área: **Richard Tahara**, **Fábio Santos** (carteira
+redistribuída em julho/2026) e **Andreyves** (saiu da área). **Anderson Silva** responde pela
+plataforma e assume a área interinamente.
 
-**Contas críticas herdadas** (CPS Topo médio do mês acima da meta):
+---
 
-| Cliente | Gestor | Média do mês | Situação |
+## Leitura do time
+
+**Quem fala e quem não fala.** Metade do time não se manifesta espontaneamente. Wallison, Nicole e,
+em menor grau, Vinicius só contribuem quando perguntados — e a contribuição, quando vem, é boa. Mateus
+e Thiago falam por conta própria; Gustavo fala do que é técnico. **Consequência prática:** reunião de
+área sem pergunta direta nominal produz silêncio, não consenso.
+
+**Quem pede ajuda e quem não pede.** Ninguém pede. Mateus absorve, Gustavo tenta resolver sozinho
+(admitido em 30/06), Wallison se isola, Thiago espera o terceiro destravar, Nicole esperava convite
+para acesso. É um padrão de área, não de indivíduo — e sugere que pedir ajuda nunca foi tratado como
+comportamento esperado. **É o hábito coletivo com maior retorno para a nova liderança instalar.**
+
+**Quem forma quem.** Mateus é o formador natural (didático, generoso, respeitado); Thiago é o melhor
+par para ensinar leitura de conta; Gustavo é o formador técnico de CRM e ferramenta — treinamento já
+combinado com ele. Vinicius ensina ferramenta bem, mas **declarou não ter paciência para quem está em
+processo de aprendizado** (25/05) — não é a pessoa para onboarding de recém-chegado.
+
+**Quem está no limite.** Luiz Eduardo (esgotamento relatado, pediu mudança de área), Thiago (rotina
+esticada, agenda fragmentada por reunião), Mateus (noites e fins de semana em picos, férias
+pendentes), Gustavo (fins de semana, 7 dias de férias pendentes), Nicole (absorvendo contas de
+terceiros com 2 meses de casa). Vinicius e Wallison não relatam sobrecarga — o que, nos dois casos,
+significa que o sinal vai aparecer no que sai do radar, não em queixa.
+
+**O que a saída da liderança significa para eles.** A cadência de X1 foi construída nesta gestão e não
+existia antes — Mateus disse isso explicitamente. Vários atribuem a própria evolução a essa rotina. Se
+a cadência individual cair na transição, o risco não é de processo, é de vínculo.
+
+---
+
+## Decisões de gente pendentes
+
+Herdadas em aberto, todas dependendo da liderança e não das pessoas:
+
+| Pendência | Pessoa | Desde | Situação |
 |---|---|---|---|
-| Dr. Victor Augusto | Luiz (→ Nicole) | R$ 21,53 | Semana 5 explodiu para R$ 78,36 — investigar entrega/segmentação |
-| Dr. Matheus Ocampo | Vinicius | R$ 21,28 | Em recuperação: R$ 26,72 → R$ 13,79 |
-| Dr. Fernando Froes | Nicole | R$ 15,63 | Instável (pico de R$ 39,78 na semana 3) |
-| Dr. Marc DuPéré | Thiago | R$ 11,26 | **Piorando** (R$ 8,15 → R$ 17,34) |
-| Dr. Vinicius Camargo | Thiago | R$ 9,17 | Em recuperação: R$ 11,54 → R$ 4,94 |
-| Dr Humberto Faleiros | Luiz (→ Nicole) | R$ 8,38 | Lateralizado acima da meta o mês todo |
-
-**Destaques de julho:** Dra. Lenise Franco (Thiago) R$ 0,24 · Dr. Eduardo Uebel (Vinicius) R$ 0,62 ·
-Dr. Carlos Matheus (Mateus) R$ 0,71 · Dra. Graciela Machado (Gustavo) R$ 0,78. Case de virada:
-Dr. Matheus Manica (Thiago), de R$ 19,17 na semana 2 para R$ 0,47 na semana 5.
-
----
-
-## Compromissos da área que a nova liderança herda
-
-| Compromisso | Prazo assumido | Onde está |
-|---|---|---|
-| 100% da operação dentro do **Stark OS** (otimizações, seleção de criativos, sinalização de testados, relatórios) | **30/08/2026** | Em rollout; todos os gestores já usam, com uso desigual |
-| Adotar o novo método de tráfego do Lúcio, operado dentro do OS | Imediato | Em curso |
-| Avançar meio e fundo de funil no rollout Andrômeda | Agosto | Gargalo: 9,1% e 6,5% |
-| Força-tarefa **CRM + pixel** em toda a carteira | Iniciada em agosto | ~50 clientes no CRM (~30 Concierge); ~40 com listas reais para upload de CSV no pixel |
-| Integração **Google Ads** no OS | Semana de 24/08 | Exige todas as contas vinculadas ao MCC da Stark |
-| Relatório semanal (realizado + planejamento) toda sexta | A partir de 07/08 | Manter |
-| Rotina de feedbacks formais documentados (mín. 2/mês por gestor) | Contínuo | Manter |
-| Verificação diária obrigatória no OS ("cheque diário") | Contínuo | Score semanal cai a zero se o gestor não acessa |
-| Retirar contas com **moedas mistas** da fórmula de metas até definir meta em moeda local | Pendente com Anderson | Decidido em 20/08 |
+| **Transição para a área de edição de vídeo** + avaliação de continuidade na empresa | Luiz Eduardo | 11/08 | Seria levada ao Silvânio; sem decisão |
+| **Mérito / promoção** | Thiago Manoel | 29/07 | "Depende de aprovação, sem novidade" |
+| **Mérito** solicitado pela liderança | Luiz Eduardo | 30/06 | Sem confirmação |
+| **Acesso a ferramenta de IA** (justificativa de uso) | Thiago Manoel | 29/07 | Justificativa pedida; decisão pendente |
+| **PDI** | Wallison | 25/06 | Combinado e nunca construído |
+| **PDI** (priorização, repertório, convivência) | Gustavo | 30/06 | Combinado e nunca construído |
+| **Escopo do papel de liderança técnica** | Mateus | 30/06 | Convite aceito, sem escopo, alçada nem contrapartida |
+| **Férias pendentes** | Mateus (integral) · Gustavo (7 dias) | 30/06 | Não agendadas |
+| **Acessos e portfólio** normalizados | Nicole | jul/26 | Verificar se ficou resolvido |
 
 ---
 
-## Riscos da área — leitura para as duas primeiras semanas
+## Sugestão para as duas primeiras semanas
 
-1. **Evidência de execução, não execução.** O problema recorrente da área não é trabalho não
-   feito — é trabalho não comprovado. Gustavo (desde 20/07), Luiz (4 semanas: 20/07, 27/07,
-   03/08, 10/08) e Nicole estão com relatórios sem print e logs de otimização em atraso. Como a
-   avaliação passa a ser pelo score do Stark OS, isso vira nota baixa sem relação com o resultado
-   real. **Ação:** um único padrão de evidência (print com data no rodapé) + verificação semanal.
-2. **Causa raiz do item 1: registro duplicado.** Gestores registram a otimização no OS e de novo
-   no ClickUp. Gustavo ficou responsável por um PRD para automatizar a integração OS ↔ ClickUp
-   (17/08) — **priorizar**, resolve a reincidência de três gestores de uma vez.
-3. **Fundo de funil é o gargalo real.** 6,5% das contas concluíram a etapa. Vinicius não fez
-   fundo em nenhum cliente até 17/07 por priorizar topo; Nicole fez só topo em Ivy e Marina.
-4. **Retenção.** Luiz Eduardo pediu transição para edição de vídeo e está avaliando a
-   continuidade na Stark caso não seja possível (11/08) — decisão pendente com Silvânio. Thiago
-   Manoel perguntou sobre mérito/promoção em 29/07 e ficou sem resposta.
-5. **Sobrecarga concentrada.** Vinicius com 17 contas (absorveu a saída do Andreyves), Luiz com
-   15 e sinais de esgotamento, Nicole absorvendo contas de Luiz com 2 meses de casa. Mateus
-   trabalhando em fins de semana em picos.
-6. **Contas em risco técnico:** Dr. Caio Fernandes (rejeições recorrentes, portfólio removido da
-   Stark por atividade suspeita), Dr. Jailson Dantas (Google Ads bloqueado por suspeita de
-   fraude, contestação enviada em 27/07), Dra. Viviane Borba (pixel bloqueado por política de
-   saúde), Dr. Marcelo Santos (pausado por pagamento), Dr. Rodrigo Gomide (contrato de tráfego
-   encerrado — só conteúdo).
-
-### Sugestão de sequência para a nova liderança
-
-1. **Semana 1:** manter as reuniões de squad e o cheque diário; fechar o padrão de evidência;
-   decidir os dois pleitos abertos (Luiz e Thiago); confirmar a carteira real de cada gestor
-   depois das transições de agosto (a atribuição mudou muito entre julho e agosto).
-2. **Semana 2:** priorizar o PRD de integração OS ↔ ClickUp; atacar as 6 contas críticas com dono
-   e prazo; puxar o rollout de meio e fundo de funil; revisar a distribuição de carteira
-   (17 / 15 / 15 contas em três gestores contra 10 em quem está entrando).
+1. **Uma conversa individual com cada um na primeira semana.** Não para cobrar entrega — para dizer
+   como será a nova rotina e ouvir o que cada um precisa. Cinco das nove pendências acima só existem
+   porque uma resposta não veio.
+2. **Responda Luiz e Thiago primeiro.** São as duas pendências com risco real de perda de pessoa, e
+   nenhuma das duas exige mais informação para ser decidida.
+3. **Instale o hábito de pedir ajuda.** Pergunta padrão em toda reunião: "o que está travado
+   esperando alguém de fora?". Hoje ninguém levanta a mão.
+4. **Mantenha a cadência de X1.** Quinzenal com os seniores, semanal e curta com Nicole. É o
+   mecanismo que sustentava o desenvolvimento do time.
+5. **Não realoque mais contas para Luiz, Nicole e Vinicius** sem antes revisar quem está com o quê —
+   a distribuição atual concentra carga em quem já sinalizou limite e em quem tem menos tempo de casa.
+6. **Feche os dois PDIs prometidos** (Wallison e Gustavo). Os diagnósticos já estão escritos nos X1s;
+   falta virar plano.
 
 ---
 
 ## Como cada dossiê está organizado
 
-1. Retrato — quem é e como opera
-2. Números de julho/2026
-3. Carteira e contas de atenção
-4. Forças, com evidência e data
-5. Riscos e pontos de atenção, com evidência e data
-6. Compromissos em aberto (checklist herdado)
-7. Como conduzir — manual prático de liderança
-8. Fontes
+1. **Quem é** — trajetória, senioridade, contexto pessoal relevante
+2. **Como trabalha** — rotina, organização, forma de priorizar e decidir
+3. **Como se comunica** — com o time, com cliente, em reunião
+4. **O que o move** — motivação, pleitos, aspirações
+5. **Forças** — com evidência datada
+6. **Pontos de desenvolvimento** — comportamentais
+7. **Carga e bem-estar**
+8. **Como conduzir** — manual prático de liderança
+9. **Fontes**
 
-As evidências são sempre datadas e rastreáveis ao documento de origem. Onde a informação é
-pessoal (saúde, remuneração), o dossiê registra apenas o acordo operacional e aponta o documento
-de origem, sem detalhe clínico ou de valor.
+Onde a informação é pessoal (saúde, remuneração), o dossiê registra apenas o acordo operacional e
+aponta o documento de origem, sem detalhe clínico ou valores.
