@@ -120,6 +120,32 @@ energia mental.
 
 ---
 
+## Trajetória — out/2025 a ago/2026
+
+**O caso de reincidência mais claro da área.** A competência técnica cresceu muito; os pontos
+comportamentais são literalmente os mesmos de dez meses atrás.
+
+| Quando | Onde ele estava |
+|---|---|
+| **out/2025** | **Avaliação formal como Gestor Pleno**, com 2–3 meses de casa: nota geral **58**, acima da média do cargo (56). Elogiado por clareza de comunicação, capacidade analítica (vem do mercado financeiro), resiliência e transparência. Gaps nomeados: proatividade e autonomia (*"tende a seguir a estrutura da Stark e não costuma propor ideias fora da caixa"*), propor os próprios testes A/B, **participar mais em reunião** — ele atribuiu à personalidade reservada no ambiente online —, construir relacionamento com o médico além do relatório (clientes o achavam "muito técnico", "muito sério") e, textualmente, **usar mais o ClickUp e menos os grupos** para pedido de trabalho. |
+| **nov/2025** | **PDI de 60 dias escrito.** Objetivo: *"desenvolver a maturidade e a autonomia estratégica"*. Continha Protocolo de Ação Imediata, relatório semanal de *short-term win*, projeto "Arquitetura Crítica" de redesenho de funil, pitch crítico aos estrategistas — e um canal semanal de 30 minutos com o supervisor cuja finalidade estava escrita assim: **"gerenciar a insegurança e necessidade de feedback de forma eficiente"**. |
+| **dez/2025** | O **CheckPoint de PDI virou revisão de conta**: uma hora de Google Ads (títulos responsivos, sitelinks, públicos em observação, CPA desejado). Nenhum item comportamental do PDI foi tratado no encontro. |
+| **jan/2026** | 11 clientes, rotina descrita como sob controle. Otimização e cliente durante a semana, **fim de semana para relatório e status report** — o mesmo padrão que reaparece no X1 de 30/06/2026. Estudando automação via API do Meta **por iniciativa própria**: é a origem direta do PRD de integração que ele propõe em 2026. |
+| **jun–ago/2026** | Sênior e referência técnica da área. Diagnóstico de 30/06: priorização, repertório tático e comunicação interna — **os mesmos três eixos de out/2025**. Registro: três ciclos de feedback (28/07, 11/08, 17/08). Autonomia: precisou ouvir em 28/07 que a palavra final sobre a conta é dele. |
+
+**O que essa linha mostra:** duas leituras, e as duas importam. A primeira é que ele evoluiu de verdade
+onde tem interesse — o estudo de automação de jan/2026 virou o domínio de CRM, formulário nativo e
+integração que hoje mora só nele. A segunda é que **nenhum dos pontos comportamentais de out/2025 foi
+fechado**: registro fora do sistema, pouca voz em reunião e insegurança de alçada são os mesmos itens,
+e os dois planos que os endereçavam morreram do mesmo jeito — o PDI de nov/2025 se dissolveu quando o
+checkpoint virou reunião de conta, e o PDI de 30/06/2026 nunca foi escrito.
+
+Duas consequências práticas para quem assume: com ele, **combinado sem mecanismo de verificação não
+pega** — é a terceira vez que o mesmo tema é combinado. E **não conduza o PDI dele dentro da reunião
+de contas**: foi assim que o ciclo se perdeu em dezembro.
+
+---
+
 ## Como conduzir
 
 | | |
@@ -147,3 +173,8 @@ energia mental.
 | 17/07/2026 | [Adequação de Campanhas ao Novo Modelo — Squad](https://docs.google.com/document/d/1QB0r3jbLLt8KyGPwLOccPxXsVsgIqSJTL1cUHOysXtY/edit) |
 | 03/07/2026 | [PRA — GUSTAVO / Amanda](https://docs.google.com/document/d/1VTD9RlpbHrlxUYpMTOfHK9vNloos1AHvgcwsdvprrII/edit) |
 | 30/06/2026 | [GUSTAVO / Amanda — X1 (autoavaliação, férias e PDI)](https://docs.google.com/document/d/1-anlljlyfiQCEhGPWPjMrrYSeEQgoJCCoiWNed3wbzI/edit) |
+| 27/01/2026 | [GUSTAVO / Amanda — X1 (carteira de 11 clientes, rotina e automação)](https://docs.google.com/document/d/1bxbrSWGKKEmIu50_FugNefdYzto-8WGYRW-kRYD_nIE/edit) |
+| 03/12/2025 | [CheckPoint PDI — Gustavo](https://docs.google.com/document/d/1-E354hgnoiJqU_lKSF1mPgmTwSPhM6msecB-p6UjRz8/edit) |
+| 06/11/2025 | [X1 — PDI Gustavo](https://docs.google.com/document/d/1Wj8_w0i2F1wuYftf4-eStByJmfg9CjT1zk0hYPK1Kh0/edit) |
+| nov/2025 | [PDI — Gustavo Henrique de Cunto Radler de Aquino](https://docs.google.com/document/d/1mBwaOwQeKax4pnfZO8rieyM8VR-az9td96JzBWiIAdE/edit) *(plano formal de 60 dias)* |
+| 28/10/2025 | [PDI & Avaliação — Gustavo](https://docs.google.com/document/d/1odZmhZMqDRnpIjGWP9h4K_jv8KPAAsRMWcABeTLqf7E/edit) |

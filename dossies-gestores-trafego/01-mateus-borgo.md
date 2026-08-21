@@ -106,6 +106,27 @@ consciente de não trabalhar à noite e relatou ganho de saúde com isso; a exce
 
 ---
 
+## Trajetória — out/2025 a ago/2026
+
+**A evolução mais acentuada do time.** Em dez meses saiu de Júnior dependente do estrategista a Sênior
+convidado a apoiar a liderança técnica.
+
+| Quando | Onde ele estava |
+|---|---|
+| **out/2025** | **Gestor de Tráfego Júnior.** O PDI formal nomeia: *"dependência excessiva do estrategista"*, falta de proatividade e iniciativa, *"conhecimentos básicos, notas próximas a 60% em áreas essenciais"*, **dificuldade de se expressar com clareza e assertividade em reuniões** e falta de confiança na argumentação e na conexão com o cliente. |
+| **nov/2025** | Trilha de 60 dias com ações concretas: **3 propostas de estratégia por semana sem ninguém pedir**, curso de oratória, liderar o início de 3 reuniões, relatório de antecipação de desafios. |
+| **dez/2025** | Já antecipava problema em vez de reagir: mapeou quais clientes precisariam de adiantamento de saldo antes das férias, identificou a queda sazonal de topo de funil e chegou com o plano (duplicar validados + pedir criativos novos). Começou o curso **por conta própria**, estudando também linguagem corporal. Amanda: *"manter a estabilidade que você tá mantendo, tá indo muito bem"*. |
+| **mar/2026** | **Pleno 1 → Pleno 2.** Zero reclamação de cliente no período; UTMs em toda a carteira antes do prazo cobrado; iniciativa de automação de arte sem task atribuída. |
+| **jul/2026** | **Pleno 2 → Sênior**, mais o convite para apoiar a liderança técnica da área. |
+
+**O que essa linha mostra:** o gap que o PDI apontou em outubro — comunicação e assertividade — é
+exatamente o que ele foi atacar por iniciativa própria, com curso e estudo, e é hoje uma das forças
+dele (fala espontaneamente em reunião, articula o grupo, apresenta descoberta para o time). Quando
+o desenvolvimento é nomeado com clareza, ele executa. É a informação mais útil sobre como
+desenvolvê-lo: diga o gap com precisão e ele resolve.
+
+---
+
 ## Como conduzir
 
 | | |
@@ -131,3 +152,7 @@ consciente de não trabalhar à noite e relatou ganho de saúde com isso; a exce
 | 30/06/2026 | [Mateus / Amanda — X1 (convite a liderança técnica)](https://docs.google.com/document/d/1XoPzc0YJZyupWVLzJKQXxE62m6NutONyFxN6MXzkR8k/edit) |
 | 19/05/2026 | [Mateus / Amanda](https://docs.google.com/document/d/1PJRG1FeERXv7P2wirvGDTevWeB1uQGPwFQXp6ljODc4/edit) |
 | 25/03/2026 | [Auditoria — Mateus Borgo](https://docs.google.com/document/d/1PlPknd6LHeZa1RtrKPVkSSuB9TRC4vJCKBu_sgsFFdk/edit) |
+| 17/12/2025 | [1:1 — Mateus](https://docs.google.com/document/d/15UBSB4JbeX1yOuK7RoQg1aescL5hF5o70mfGtVDFD38/edit) |
+| 03/12/2025 | [CheckPoint PDI — Mateus](https://docs.google.com/document/d/1P2SiQFy0ziEhyk4zPjK5Ehtpmz2u_kK0HgM80VCP4dI/edit) |
+| nov/2025 | [PDI — Mateus Borgo Soares](https://docs.google.com/document/d/1Iu-_tzKsNjjGXCb8Njm8GFBHuwlDDHCgk7-wk3i2zcU/edit) *(plano formal de 60 dias, cargo Júnior)* |
+| 29/10/2025 | [PDI & Avaliação — Mateus](https://docs.google.com/document/d/1-Nt_hmuxDJBRciwwI734dB3s34qdls36l7Xh-gBrhIw/edit) — *transcrição inutilizável (Gemini transcreveu em idioma incorreto); usado apenas como registro de que a reunião ocorreu* |

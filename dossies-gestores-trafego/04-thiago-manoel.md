@@ -147,6 +147,30 @@ carga foi aliviada com a reorganização de squads, mas a fragmentação da agen
 
 ---
 
+## Trajetória — abr/2026 a ago/2026
+
+**A evolução mais rápida sem nenhum plano formal por trás.** Em quatro meses saiu de executor de
+diretriz técnica a melhor analista de conta da área, com o dobro de carteira — e sem PDI, avaliação
+formal ou trilha registrada em todo o período.
+
+| Quando | Onde ele estava |
+|---|---|
+| **abr/2026** | Primeira rotina individual registrada: X1 técnico com o **Vinicius** (08/04) — varredura de custo por seguidor, decisão de matar anúncio caro, realocação da verba de um cliente que queria investir R$ 15 mil. Já ali ele não aceitava diretriz seca: explicou por que a verba estava toda no topo (perfil pequeno, landing page e estrutura de fundo ainda não prontas) em vez de simplesmente redistribuir. O X1 com a Amanda de 30/04 existe no acervo, mas o Gemini não gerou notas — sem conteúdo aproveitável. |
+| **mai/2026** | **A carteira quase dobra:** de 8–9 para 16 clientes, várias herdadas com problema de gestores anteriores. Rotina "de manhã até à noite", que ele atribui a três causas somadas — volume novo de processos, home office e dificuldade de priorizar. Em vez de reclamar de volume, chega com proposta de redistribuição cliente por cliente, avaliando o impacto para quem receberia. |
+| **jun–jul/2026** | O melhor diagnóstico do período: identificou que uma compra de 5.000 seguidores feita pelo cliente meses antes havia distorcido toda a leitura da conta (07/07). Nomeia o próprio limite de autogestão (02/07, primeira experiência de home office) e é preparado pelo estrategista antes das reuniões com cliente exigente. |
+| **jul/2026** | Pede **mérito ou promoção** (29/07). Ouve que depende de aprovação e que não há novidade. Não voltou a perguntar. Na mesma conversa pede o acesso à ferramenta de IA e fica de escrever a justificativa. |
+
+**O que essa linha mostra:** ele absorveu o dobro de carteira, incluindo contas problemáticas, sem
+quebrar entrega e sem transformar isso em atrito — e a única coisa que pediu para si ficou sem
+resposta. O desenvolvimento dele aconteceu por conta própria e por conversa técnica, nunca por plano:
+não há um único documento de PDI ou avaliação dele no período coberto.
+
+É por isso que ele é **o maior risco silencioso da área**: alto desempenho, nenhuma reclamação, um
+pleito aberto há quase um mês e nada formal registrado a respeito dele. Quem fala uma vez e não repete
+não parece estar insatisfeito — até sair.
+
+---
+
 ## Como conduzir
 
 | | |
@@ -173,3 +197,5 @@ carga foi aliviada com a reorganização de squads, mas a fragmentação da agen
 | 07/07/2026 | [PRA — Thiago / Amanda](https://docs.google.com/document/d/1dl3ZKQGs38wiUS1WZ794Ox3y2ry34mLNeeljcD9zcLA/edit) |
 | 02/07/2026 | [Thiago / Amanda & PRA](https://docs.google.com/document/d/1D9TQ6dqa-4d5vtzZcC83vW4TTMmAqGOV5OUwGn8_PLU/edit) |
 | 28/05/2026 | [Thiago / Amanda — X1 (carga, organização e redistribuição)](https://docs.google.com/document/d/11AlPpMl4QL_JCoJ_6EJwdRN9FJNS2W7IZmQXWUlXb78/edit) |
+| 30/04/2026 | [Thiago / Amanda](https://docs.google.com/document/d/1UgBV6OriJqL4eQUBsGd5UwqqoKpDwmFxbgJG-jxVbb4/edit) — *sem notas geradas pelo Gemini; não usado como evidência* |
+| 08/04/2026 | [Thiago / Vinicius — X1 técnico (CPS e alocação de verba)](https://docs.google.com/document/d/1DBbYuptl7vExLTt_bQFtWyy3zp4hyI4WBdh1WS1tCmg/edit) |

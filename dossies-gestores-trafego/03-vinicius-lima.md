@@ -112,6 +112,31 @@ sinal a monitorar não é queixa dele — ele não vai reclamar — e sim o que 
 
 ---
 
+## Trajetória — mar/2026 a ago/2026
+
+**Um líder que voltou para a execução por escolha — e cuja melhor contribuição continua saindo pelas
+beiradas.** Não há X1 dele no acervo de 2025; a trajetória documentada começa em março.
+
+| Quando | Onde ele estava |
+|---|---|
+| **mar/2026** | Escreveu a **Trilha de Performance da área** — o guia *"Q1 — O Executor"*, nível júnior: estrutura de acessos (BM parceira, MCC), GTM + Pixel, rastreamento Google, nomenclatura Stark e políticas do Meta como cultura da casa. Documento criado em 31/03/2026 na conta dele. É a única formação estruturada de gestor júnior escrita na área — e nos documentos lidos não há registro de ela ter sido aplicada depois de março. |
+| **abr/2026** | **Exerceu liderança técnica de fato.** Conduziu os X1s de Thiago (08/04), Luiz Eduardo (08/04) e Wallison (15/04): varredura de custo por seguidor conta a conta, decisão de matar ou escalar criativo, realocação de verba, fila de prioridade — cada reunião fechada com próximas etapas e prazo no mesmo dia. Com o Wallison declarou a meta explícita de **"puxar para uma taxa de sucesso de 70% a 80%"** e o cobrou de ser *"proativo e insistente"* na cobrança de conteúdo. |
+| **mai/2026** | X1 de feedback: duas contas sem otimização na mesma semana, reconhecidas de imediato (*"esqueci disso"*). Diretriz: registrar no ClickUp em vez de confiar na memória. No mesmo encontro disse que reunião de liderança *"não é muito a minha praia"*, que se expressa melhor escrevendo, e que **não tem paciência para quem está em processo de aprendizado**. |
+| **jun–ago/2026** | De volta à execução, com a **maior carteira da área**: absorveu a saída de um colega e mais três contas em agosto. Gravou o tutorial de vinculação de contas no Stark OS (27/07). Comprovação em dia — exceção positiva no time —, profundidade em fila. |
+
+**O que essa linha mostra:** ele não é um sênior que nunca liderou. Ele liderou, entregou o que a
+liderança técnica exige (diagnóstico, diretriz, cobrança com prazo) e concluiu que gosta da parte de
+construir e não da de conduzir gente. A área o usa hoje como amortecedor de carteira — e as duas
+coisas de maior alcance que ele produziu no período (a trilha Q1 e o tutorial do OS) saíram nas
+folgas, sem escopo e sem tempo alocado.
+
+**Onde está o retorno:** a trilha Q1 já existe pronta, escrita por ele, e a área acabou de contratar
+alguém que precisaria dela. Dar tempo formal para ele terminar e rodar essa frente vale mais do que
+mais três contas na carteira dele — e é compatível com o limite que ele mesmo declarou: escrever e
+padronizar sim, formar gente cara a cara não.
+
+---
+
 ## Como conduzir
 
 | | |
@@ -136,3 +161,6 @@ sinal a monitorar não é queixa dele — ele não vai reclamar — e sim o que 
 | 07/07/2026 | [PRA — Vinicius / Amanda](https://docs.google.com/document/d/1oY47nR5ALspWI6g9Q1xZVaKLVMZNx5BPk9VMqvenobw/edit) |
 | 01/07/2026 | [Vinicius / Amanda](https://docs.google.com/document/d/12ovyGSg4lg-nQpBflYZKPbkKgixwpobl7cTqRfM8BK8/edit) |
 | 25/05/2026 | [Vinicius / Amanda — X1 de feedback (memória, urgência e perfil)](https://docs.google.com/document/d/1Ham3rrwYCCnppRPgEzNa09KZpAAqDu2WwIJPfvUczQg/edit) |
+| 15/04/2026 | [Wallison / Vinicius — X1 técnico conduzido por ele](https://docs.google.com/document/d/1_zRuKW37uM9yggei2WFs1M_9nzlSpMwMph1FZKHBcto/edit) |
+| 08/04/2026 | [Thiago / Vinicius](https://docs.google.com/document/d/1DBbYuptl7vExLTt_bQFtWyy3zp4hyI4WBdh1WS1tCmg/edit) · [Luiz Eduardo / Vinicius](https://docs.google.com/document/d/1OwgaV-lzbU4XSCsYEQV3kff9XX9x77HJAfb2RYHtc-M/edit) — X1s técnicos conduzidos por ele |
+| 31/03/2026 | [Trilha de Performance — Q1 · O Executor](https://docs.google.com/document/d/1wfP71fOvbfV3P5X_-8o_gsm4H-OvnBtX6FSHSX7CvoQ/edit) *(documento de autoria dele)* |

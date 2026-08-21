@@ -129,6 +129,30 @@ resolve: a questão de fundo é de encaixe de função, não de volume.
 
 ---
 
+## Trajetória — abr/2026 a ago/2026
+
+**Quatro meses de sinal antes do pedido de saída.** A curva dele não é de queda de competência — é de
+desgaste por resposta que não veio.
+
+| Quando | Onde ele estava |
+|---|---|
+| **abr/2026** | Duas sessões técnicas: com o **Vinicius** (08/04) e com a **Amanda** (29/04). Já aparecem os dois traços que se repetem até agosto. O bom: descreve cada conta e cada cliente com precisão — quem está sumido, quem vive com criativo reprovado, de onde vem o agendamento. O a corrigir: **lê métrica isolada** — foi corrigido em 29/04 por querer manter campanha com *hook rate* e CTR altos e zero seguidor, e ouviu que a análise não pode se basear em "métrica fria". Também já tinha ali um acesso preso com alguém que havia saído da empresa. |
+| **jun/2026** | **Mérito pedido pela liderança** (30/06). Diz que remuneração é o único ponto objetivo que falta — no resto está satisfeito. Combina automatizar relatório e planilha com IA. Não implementa. |
+| **jul/2026** | PRA em 07/07. Em **17/07 escreve sozinho o melhor relatório de accountability do período**: assume o desvio (3 contas de 7 a 8 esperadas), explica cliente por cliente, propõe a fila e pede prazo. Em paralelo, quatro semanas seguidas de relatório sem print (20/07 a 10/08). |
+| **ago/2026** | **11/08: esgotamento relatado e pedido de transição para edição de vídeo**, com avaliação da própria continuidade na empresa. Quatro contas retiradas na hora; a carteira, que era de 19 em junho e caminhava para ~15, encolhe mais. Sem decisão até o corte. |
+
+**O que essa linha mostra:** de abril a agosto, nada do que ele pediu para si foi respondido — mérito,
+critério de progressão e agora a mudança de área. E, no mesmo intervalo, o que ele oferecia por
+iniciativa própria só aumentou: relatório estruturado, leitura de cliente, condução de transição
+sensível.
+
+Ele não parou de entregar antes de pedir para sair; ele passou quatro meses entregando e perguntando.
+Isso muda a leitura do pedido de 11/08: **não é desengajamento, é conclusão.** E também muda o que a
+resposta precisa ser — qualquer decisão explícita, com prazo, vale mais para ele do que a melhor
+intenção sem data.
+
+---
+
 ## Como conduzir
 
 | | |
@@ -154,3 +178,5 @@ resolve: a questão de fundo é de encaixe de função, não de volume.
 | 17/07/2026 | [Atualização PRA — Luiz Eduardo](https://docs.google.com/document/d/1X62U1tPSnIzzUn2qd9KG4kcLKDlnxxA-cRKIxUbDs8E/edit) |
 | 07/07/2026 | [PRA — Luiz Eduardo / Amanda](https://docs.google.com/document/d/1QcsMm8VrKf4mIm0BV4rb7N5cmIzwSdz5zbUt3rl2Qn4/edit) |
 | 30/06/2026 | [Luiz Eduardo / Amanda — X1 (carreira, mérito e automações)](https://docs.google.com/document/d/1dSY_-2d5s-D_06uhIoAFpiyYTdY6JHJKHGOEUBKuitg/edit) |
+| 29/04/2026 | [Luiz Eduardo / Amanda — validação de criativos e leitura de métrica](https://docs.google.com/document/d/1wfqSUDSRD19IyiREFohkknbelPd__0awwaqhQ2Uj9RI/edit) |
+| 08/04/2026 | [Luiz Eduardo / Vinicius — X1 técnico](https://docs.google.com/document/d/1OwgaV-lzbU4XSCsYEQV3kff9XX9x77HJAfb2RYHtc-M/edit) |

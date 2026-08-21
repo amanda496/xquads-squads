@@ -107,6 +107,30 @@ o erro só aparece quando o cliente reclama.
 
 ---
 
+## Trajetória — abr/2026 a ago/2026
+
+**O mesmo diagnóstico, de dois líderes diferentes, com três meses de distância.** É a informação mais
+útil do dossiê dele: não falta clareza no feedback — falta mecanismo.
+
+| Quando | Onde ele estava |
+|---|---|
+| **abr/2026 (15/04, com o Vinicius)** | Recebeu, do então condutor dos X1s técnicos, exatamente o recado que a Amanda daria em junho: ser **"proativo e insistente"** na cobrança de conteúdo em vez de deixar a falta de material explicar a queda de performance. A meta declarada na reunião era **puxá-lo para uma taxa de sucesso de 70% a 80%**. Ele relatou semana intensa, algumas metas batidas e outras não. |
+| **abr/2026 — limitação concreta** | No mesmo X1 apareceu um ponto pouco tratado depois: **equipamento.** Falou de precisar comprar notebook e mais memória RAM porque estava gerenciando conta pelo celular quando viajava e a máquina não dava conta da nova rotina com IA em nuvem. Não há registro, nos documentos lidos, de que isso tenha sido resolvido. |
+| **abr/2026 (28/04, com a Amanda)** | Sessão de validação de criativo conta a conta. Aqui ele aparece no seu melhor: sabe qual público funciona em cada conta, o que já testou sem sucesso, de onde vem o lead qualificado e por que um criativo de perguntas e respostas converte quem se perderia. **É a evidência mais forte de que a contribuição existe e só não sai espontaneamente.** |
+| **mai–jun/2026** | Criou o próprio cronograma semanal, por iniciativa própria (21/05). Autoavaliação de 25/06: não satisfeito com o próprio desempenho, travado para ampliar o leque de testes, comunicação com o time a desenvolver — e avanço real reconhecido na relação com clientes. **PDI combinado nessa conversa. Nunca construído.** |
+| **jul–ago/2026** | 24/07: desmonta a estrutura combinada com o time sob pedido do cliente. 05/08: encontra o erro de verba num plano de ação gerado por IA e evita que o time siga orientação errada — quando perguntado, entrega. |
+
+**O que essa linha mostra:** em quatro meses de rotina individual ele ouviu o mesmo recado duas vezes,
+de duas pessoas diferentes, e recebeu a promessa de um PDI que não saiu. O feedback nunca foi o
+problema. O que mudou de verdade no período foi a única coisa que veio de estrutura e não de conversa
+— o cronograma que ele mesmo montou.
+
+Daí a leitura para quem assume: com ele, **combine mecanismo, não intenção** (registro de teste em
+documento, par técnico fixo, uma pergunta nominal por reunião) — e resolva o equipamento antes de
+cobrar volume, porque essa parte não depende dele.
+
+---
+
 ## Como conduzir
 
 | | |
@@ -118,6 +142,7 @@ o erro só aparece quando o cliente reclama.
 | **Emparelhe-o com alguém** | O antídoto do isolamento é dupla, não cobrança. Um par técnico (Mateus ou Thiago) resolve mais que três feedbacks. |
 | **Respeite o vínculo com cliente** | Mudança de carteira mexe com ele mais do que com os outros; explique o motivo antes de anunciar. |
 | **Construa o PDI** | Combinado em 25/06 e nunca feito. Os eixos já estão claros: comunicação interna, repertório criativo, registro de teste. |
+| **Verifique o equipamento** | Ele levantou em abril a necessidade de notebook e memória, e chegou a operar conta pelo celular em viagem. Confirme se ficou resolvido — cobrar volume de quem tem gargalo de máquina é cobrança no lugar errado. |
 
 ---
 
@@ -132,3 +157,5 @@ o erro só aparece quando o cliente reclama.
 | 06/07/2026 | [PRA — Wallison / Amanda](https://docs.google.com/document/d/1NJvKymnmyZ1bm6kqQ-uti9_rYSbGrcpEItFhVOhayq8/edit) |
 | 25/06/2026 | [Wallison / Amanda — X1 (autoavaliação, isolamento e PDI)](https://docs.google.com/document/d/1d1a98gd3KznpyQddw2DFNTAq5OmAW_yWpgaTIREbQzc/edit) |
 | 21/05/2026 | [Wallison / Amanda — X1 (rotina, cronograma e squads)](https://docs.google.com/document/d/1W4cx9Kvlgf_Rn1ujW5Fj3JzQH5ZoH5XIQi58BvcUGuw/edit) |
+| 28/04/2026 | [Wallison / Amanda — validação de criativos](https://docs.google.com/document/d/1MBUOJK7bn0SjVQeSPB0CN3VOXCuKwpaA_46KgcCYvuA/edit) |
+| 15/04/2026 | [Wallison / Vinicius — X1 técnico (CPS, proatividade e equipamento)](https://docs.google.com/document/d/1_zRuKW37uM9yggei2WFs1M_9nzlSpMwMph1FZKHBcto/edit) |

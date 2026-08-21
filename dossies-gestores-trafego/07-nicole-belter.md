@@ -120,6 +120,29 @@ melhor do que cobrança acumulada.
 
 ---
 
+## Linha do tempo — jun a ago/2026
+
+Ela é a única pessoa da área sem trajetória a avaliar. São dois meses, e o que existe é uma
+**integração em curso** — vale registrar o que já aconteceu nela, porque é muito para oito semanas:
+
+| Quando | O que aconteceu |
+|---|---|
+| **12/06** | Entrevista. Já chega com o nicho pesquisado e descreve um processo estruturado de diagnóstico quando o custo sobe. |
+| **22/06** | Início do onboarding. Faz os primeiros relatórios manualmente, a partir de exemplos da equipe, até dominar o padrão. |
+| **jul/2026** | Monta campanha em conta prioritária combinando histórico com conteúdo garimpado do perfil do cliente (17/07). No mesmo mês, tem **uma conta de anúncios desabilitada**, provavelmente por ação em massa ao subir muitos criativos, e passa a depender de aprovação interna para voltar ao portfólio. Fica sem enviar relatório por falta de acesso a grupos e gerenciadores — e não pede. |
+| **30/07** | Primeiro X1. Aderência ao método reconhecida explicitamente; registro e voz cobrados. |
+| **10/08** | Segundo X1. Registro **diário** combinado, com o sistema aberto durante a execução. Comunica o contexto de saúde e fica acordado que a avaliação se mantém pelas entregas e pela comunicação de impedimentos. |
+| **11/08** | **Recebe contas do Luiz Eduardo**, incluindo casos difíceis, com menos de dois meses de casa. |
+
+**O que isso significa para a nova liderança:** não há padrão de comportamento consolidado aqui para
+usar como referência — há uma pessoa em curva de aprendizado que, em oito semanas, absorveu carteira
+de um colega em esgotamento, atravessou um episódio de restrição de plataforma e ainda está resolvendo
+acessos. A régua justa até out/2026 é **aderência ao método e consistência de registro**, não
+resultado de conta. Cobrar dela o mesmo tipo de resultado que se cobra de um sênior nesse intervalo
+produziria uma leitura errada da pessoa.
+
+---
+
 ## Como conduzir
 
 | | |
