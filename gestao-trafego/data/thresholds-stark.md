@@ -1,12 +1,23 @@
 # Thresholds e Benchmarks — Método Stark
 
+Alinhado ao Playbook de Onboarding — Gestor de Tráfego Stark v1.0 (abr/2026), §8 e §10.
+
 ## Métricas por Estágio de Funil
 
-| Estágio | Métrica-chave | Benchmark | Alerta |
-|---------|--------------|-----------|--------|
-| TOFU | CpS (Custo por Seguidor) | ≤ R$ 1,50 | > R$ 2,00 |
-| MOFU | CTR | ≥ 1,5% | < 1,0% |
-| BOFU | CPL (Custo por Lead) | R$ 7 – R$ 12 | > R$ 15 |
+| Estágio | Métrica-chave | Benchmark | Alerta | Ação automática |
+|---------|--------------|-----------|--------|-----------------|
+| TOFU | CpS (Custo por Seguidor) | R$ 1,50 – R$ 2,59 | > R$ 2,59 | Desativar se CpS > R$ 3,00 |
+| MOFU | CTR | ≥ 1,5% | < 1,5% | Desativar se CTR < 1,5% |
+| BOFU | CPL (Custo por Lead) | R$ 7 – R$ 12 | > R$ 15 | Desativar se CPL > R$ 20 |
+
+## Benchmarks de Negócio (Cirurgia Plástica Brasil)
+
+| Métrica | Benchmark |
+|---|---|
+| CAC médio | R$ 800 – R$ 2.500 |
+| LTV médio | R$ 8.000 – R$ 25.000 |
+| ROI esperado | 3:1 a 6:1 |
+| Investimento mensal de referência | R$ 5.000 – R$ 15.000 |
 
 ## Critérios de Classificação CPL
 
@@ -19,6 +30,15 @@
 - **Decisão de pausa/escala:** Gasto ≥ 2x CPL meta (ex: meta R$12 → aguardar R$24 gastos)
 - **Análise de tendência:** Mínimo 3 dias consecutivos
 - **Decisão estrutural:** 7 dias de dado
+- **Períodos de análise semanal:** 7D, 14D, 4D, 3D, Ontem e Hoje
+
+## Ciclo de Otimização (72h)
+
+- Analisar o CpS de **todos** os anúncios
+- Nenhum atingiu a meta? Reduzir o orçamento dos que estão com CpS > R$ 3,00 —
+  **não pausar ainda**
+- Realocar verba: **67%** para escalar o melhor, **33%** para novos testes
+- Pausar definitivamente os ruins **somente após** substitutos validados
 
 ## Regras de Escala
 
@@ -28,7 +48,11 @@
 
 ## Limites de Frequência
 
-- Frequência acima de **3.0** = sinal de fadiga de criativo
+- **Nunca olhar a frequência acumulada** — sempre filtrar os últimos 30 dias
+- Frequência acima de **3.0** (janela de 30 dias) = sinal de fadiga de criativo
+- Alta frequência só é problema quando **custo sobe E audiência é pequena**
+- Audiência grande + reach baixo → duplicar o conjunto para mudar a fadiga
+- Trocar criativo apenas quando: audiência pequena + frequência alta + feedback em queda
 - Seguidores em público BOFU: **máximo 30 dias** → remover depois
 
 ## Thresholds de Criativo
@@ -43,10 +67,22 @@
 - **Fase de escala:** 70% do orçamento
 - Mover para escala apenas com CPL validado por 7D
 
-## Orçamento Padrão por Conta
+## Cenários por Orçamento
 
-| Verba Mensal | Estrutura Recomendada |
-|---|---|
-| Até R$ 2.500 | 1 campanha teste ABO por estágio |
-| R$ 2.500 – R$ 5.000 | ABO teste + CBO escala (60-70% verba) |
-| Acima R$ 5.000 | Estrutura completa separada por procedimento |
+Orçamento não define o método — define **quanto** do método se executa simultaneamente.
+
+| Faixa | TOFU | MOFU | BOFU |
+|---|---|---|---|
+| Até R$ 2.500 | CBO se pouco conteúdo; ABO se tiver. 1 público por teste | 1 conjunto único misto | 1 campanha (engaj. 365 + 180) |
+| Até R$ 3.000 | ABO teste (sempre ativo) + CBO escala (60–70% da verba) | 3 conjuntos separados | 2 campanhas (teste + escala) |
+| Acima de R$ 3.500 | Estrutura completa com separação total | Avançado com lookalikes | Campanhas por procedimento |
+
+## Análise Semanal Consolidada
+
+Diagnóstico único por conta, toda semana, cobrindo:
+
+- **TOFU:** CpS e volume de novos seguidores
+- **MOFU:** volume de visitas ao perfil e CTR dos criativos
+- **BOFU:** CPL e volume de leads gerados
+- **Criativos rejeitados:** inventário de ads com status rejeitado
+- **Campanhas zeradas:** campanhas ativas com zero conversões nos últimos 7 dias
