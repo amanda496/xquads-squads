@@ -26,6 +26,17 @@ Rotina intensa e reconhecidamente desorganizada em maio: *"trabalhando bastante 
 noite para dar conta da demanda"*, atribuindo isso a uma mistura de volume novo de processos, home
 office e dificuldade de priorizar.
 
+**Um dado de contexto que explica muita coisa:** a Stark é a **primeira experiência de home office**
+dele — todo o tempo dele aqui, cerca de um ano e meio, é o tempo total dele trabalhando remoto.
+Antes era CLT presencial. Ele nomeia isso com clareza (02/07): *"você tá na sua casa, então são mais
+distrações… você não tem um chefe ali o tempo todo te mandando trabalhar, então você tem que ter esse
+cuidado. E é um trabalho contínuo, todo dia você tem que estar se policiando para não perder tempo."*
+O que parece falta de organização é, em boa parte, autogestão sendo aprendida sem apoio formal.
+
+Também vale notar como ele se descreve. Quando perguntado como estava — ele, não o trabalho —
+respondeu: *"não sei se dá para falar como está o Thiago sem falar dos clientes do Thiago."*
+Identidade profissional fundida à operação.
+
 ---
 
 ## Como trabalha
@@ -49,6 +60,11 @@ office e dificuldade de priorizar.
 - **Fica travado esperando terceiros.** CRMs de cliente, negociação do estrategista, comercial do
   cliente que não move o card e impede o retorno de dado à campanha. Ele registra o impasse e espera
   a próxima reunião quinzenal para andar um passo — não escala.
+- **Distração por notificação é um problema que ele já mapeou.** Em 02/07 disse que fora das reuniões
+  precisa *"desligar o WhatsApp, se organizar e parar para otimizar conta mesmo"* — sabe o que
+  precisa fazer, ainda não instalou o hábito.
+- **Confere antes de enviar.** Detectou que a ferramenta havia gerado o relatório de um cliente na
+  conta de outro e segurou o envio (02/07). Cuidado operacional acima da média.
 
 ---
 
@@ -61,6 +77,17 @@ incômodo com troca de estrategista, defendeu esperar o momento certo em vez de 
 Não é de confronto. Quando discorda, traz evidência em vez de discutir — o que é bom, mas faz com
 que pontos importantes (como o pleito de mérito ou a falta do acesso a ferramenta) fiquem ditos uma
 vez e não voltem.
+
+**Com cliente exigente, ainda está construindo autoridade.** O estrategista o orientou antes das
+reuniões com dois clientes difíceis a mostrar segurança técnica, porque *"se você não for claro, ele
+não vai ter confiança em você — e se ele não tiver confiança, o projeto não vai para a frente"*; os
+dois combinaram previamente o que ele iria falar (02/07). O domínio técnico ele tem; o que falta é
+convicção na hora de apresentar.
+
+Tem uma leitura afiada do contexto da profissão: *"todo mundo vai ter um sobrinho que faz mais
+barato"* — e hoje qualquer cliente joga a fala do gestor no ChatGPT, que tende a concordar com quem
+pergunta, o que faz o cliente tirar conclusão precipitada. É o tipo de percepção que ajuda a preparar
+o time para conversas difíceis.
 
 ---
 
@@ -86,7 +113,10 @@ vez e não voltem.
 - **Rigor de estrutura.** Aplica o método com cuidado e separa o que precisa ser separado.
 - **Documenta transição.** Concluiu e registrou as transições da carteira dele no ClickUp (29/07).
 - **Pensa no colega que recebe a conta** — ao propor transições, avaliou quanto trabalho cada conta
-  daria para quem assumisse.
+  daria para quem assumisse, e fez questão de não repassar só as fáceis: *"para não falar que eu só
+  passei cliente fácil para a frente"* (02/07). Senso de justiça raro em redistribuição de carteira.
+- **Autogestão em construção com honestidade** — reconhece que precisa melhorar foco e administração
+  do tempo e diz que já melhorou bastante, sem usar o home office como desculpa.
 - **Crítica útil de ferramenta.** Os feedbacks dele sobre o OS e sobre o ganho real de tempo com IA
   são dos mais aproveitáveis da área.
 
@@ -126,6 +156,8 @@ carga foi aliviada com a reorganização de squads, mas a fragmentação da agen
 | **Escale por ele** | CRMs de cliente e comercial que não devolve dado são bloqueios de liderança. Enquanto ficarem com ele, ficam parados. |
 | **Converse por dado** | Peça a leitura dele antes de dar a diretriz — normalmente ela já está correta, e ele engaja muito mais assim. |
 | **Proteja blocos de trabalho** | Demanda pontual precisa deslocar formalmente o cronograma, não atropelá-lo em silêncio. |
+| **Ajude na autogestão, não cobre disciplina** | A Stark é a primeira experiência de home office dele. Bloco de foco combinado, notificações silenciadas no horário de otimização e uma rotina de dia fechada valem mais do que pedir mais organização. |
+| **Prepare-o para a conversa difícil** | Ele já é preparado pelo estrategista antes de reunião com cliente exigente. Transformar isso em prática (ensaio de 10 minutos antes) desenvolve a autoridade que falta. |
 | **Cobre que ele repita o que precisa** | Ele fala uma vez. Pergunte ativamente: "o que você me pediu e eu não respondi?" |
 | **Aproveite o diagnóstico dele em conta de outro gestor** | É a competência mais escalável que ele tem — bom par técnico para quem está aprendendo a ler conta. |
 

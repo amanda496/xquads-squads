@@ -51,6 +51,16 @@ perguntado.
 - **Escala dúvida em vez de improvisar.** Quando um plano de ação chega sem subtarefa ou descrição,
   ele leva o caso à reunião de área em vez de deixar a tarefa vencer em silêncio (20/08). É um bom
   hábito e deve ser preservado.
+- **Executa um cliente por vez para garantir qualidade** — declarado por ele no documento de 17/07,
+  como escolha consciente e não como limitação.
+
+**Uma nuance importante sobre "falta de comunicação":** em 17/07 ele produziu, por conta própria, um
+documento estruturado de atualização do plano de ação — resumo executivo, o que concluiu (3 contas de
+uma expectativa de 7 a 8), justificativa cliente por cliente do que travou, fila de execução
+priorizada e um pedido explícito de ajuda para alinhar qual prazo seria aceitável. Ou seja: **quando o
+formato é um relatório, ele comunica bem, se responsabiliza e pede apoio.** O gargalo dele é a
+evidência de rotina (print, log diário), não a capacidade de se explicar. Isso muda o tipo de
+cobrança que funciona com ele.
 
 ---
 
@@ -92,6 +102,9 @@ Atenção em reunião é ponto frágil — recebeu esse feedback de forma direta
   (automação, organização).
 - **Boa leitura de perfil de cliente** — descreve com precisão o comportamento de cada conta, o que
   ajuda quem for assumir.
+- **Escreve bem quando o formato é estruturado** — o documento de 17/07 é o melhor relatório de
+  accountability produzido por um gestor no período: assume o desvio, explica a causa, propõe a fila e
+  pede prazo. Vale usar como modelo para o time.
 
 ---
 
@@ -125,6 +138,7 @@ resolve: a questão de fundo é de encaixe de função, não de volume.
 | **Reduza a cobrança a três itens** | Enquanto a situação de carreira não se resolve: prints dos relatórios, registro diário de otimização, transição concluída com quem está recebendo as contas. Lista curta funciona melhor com ele. |
 | **Confirme o entendimento na hora** | Peça que ele repita o combinado ou registre por escrito ao fim da reunião. Ele perde informação em reunião cheia. |
 | **Destrave as dependências dele** | Boa parte do que parece atraso é tarefa parada esperando outra área. Resolver isso muda a entrega dele mais rápido do que qualquer cobrança. |
+| **Peça relatório, não print** | Ele entrega bem no formato escrito e estruturado — foi assim em 17/07. Se a evidência de rotina puder virar um relatório semanal curto em vez de print por tarefa, a taxa de entrega sobe. |
 | **Se aprovar a transição, planeje a passagem** | São muitas contas, várias com cliente sensível a troca de gestor. Ele é a pessoa certa para conduzir essa passagem — é o que ele faz bem. |
 | **Se negar, seja explícito sobre o caminho** | Critérios de mérito e senioridade, com prazo. Ele já pediu isso duas vezes. |
 

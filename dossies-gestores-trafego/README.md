@@ -16,6 +16,17 @@ carga — e o manual prático de condução.
 resultados/PRA. Cada afirmação é datada e rastreável ao documento de origem, listado no final de
 cada dossiê.
 
+**Cobertura:** 34 documentos lidos — **19/05/2026 a 21/08/2026 de forma contínua**, mais a auditoria
+de 25/03/2026 (que cita o checkpoint de liderança de 23/03 e as dailies de 24 e 25/03). Por pessoa:
+Mateus 5 · Gustavo 5 · Luiz 5 · Vinicius 4 · Thiago 4 · Wallison 4 · Nicole 3, mais 4 documentos
+coletivos da área.
+
+**Não coberto:** a série de X1s de **setembro a dezembro de 2025** — incluindo os PDIs de
+novembro/2025 de Mateus, Gustavo e Andreyves — e os X1s de **janeiro a abril de 2026**, que existem no
+Drive para os gestores mais antigos. Consequência: os dossiês retratam com profundidade o momento
+atual de cada pessoa, mas não a trajetória do último ano (evolução, reincidência de padrão, o que já
+foi combinado antes e não se sustentou).
+
 **Ordem dos dossiês:** por senioridade e tempo na área — não é ranking de desempenho.
 
 ---
