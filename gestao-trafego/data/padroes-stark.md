@@ -68,36 +68,115 @@ Tráfego Stark v1.0 (abr/2026) · IT-8.1 (POP-OPR-013).
 
 ## 2. Nomenclatura Padrão de Campanhas
 
-Obrigatória em toda conta Stark, nos 3 níveis, para manter rastreabilidade.
+Obrigatória em toda conta Stark, nos 3 níveis, para manter rastreabilidade e facilitar
+análises. **Fonte:** Estrutura Padrão — Nomenclatura das Contas.
 
-### Campanha
+### 2.1 Nível de campanha
+
+**Objetivo:** identificar a etapa da estratégia, o que está sendo promovido e a fase.
+
 ```
-[FUNIL][OBJETIVO][PRODUTO/EXPERT][TIPO][ORÇAMENTO]
+[FUNIL][OBJETIVO][PRODUTO/EXPERT][TIPO][ORÇAMENTO][ADV]
 ```
-| Campo | Valores |
+
+| Campo | Descrição | Valores |
+|---|---|---|
+| `[FUNIL]` | Etapa da estratégia | TOFU (topo) · MOFU (meio) · BOFU (fundo) |
+| `[OBJETIVO]` | Objetivo otimizado no Meta | Tráfego · Leads · Vendas · Engajamento · Alcance · LEAD-FORMULARIO · LEAD-RESPONDI |
+| `[PRODUTO/EXPERT]` | O que está sendo promovido | DrIngrid · R24R · Botox · Lipo · Mama · Abdômen · Mommy · SEGUIDORES · FORMULÁRIO-META · FORMULÁRIO-RESPONDI · WHATSAPP · WHATS |
+| `[TIPO]` | Fase da campanha | `[TESTE]` · `[ESCALA]` |
+| `[ORÇAMENTO]` | Onde fica o orçamento | ABO (por conjunto) · CBO (por campanha) |
+| `[ADV]` | Público Advantage | `[ADV]` quando a campanha usa público Advantage |
+
+**Exemplos:**
+- `[TOFU][Tráfego][SEGUIDORES][TESTE][ABO][ADV]`
+- `[BOFU][Engajamento][WPP][R24R][ESCALA][CBO][ADV]`
+- `[MOFU][Tráfego][Rejuvenescimento][ESCALA][CBO][ADV]`
+
+### 2.2 Nível de conjunto de anúncios (Ad Set)
+
+**Objetivo:** organizar a hierarquia de públicos, geolocalização e posicionamento.
+
+```
+[PÚBLICO][CONVERSÃO][GEO]
+```
+
+| Campo | Descrição | Valores |
+|---|---|---|
+| `[PÚBLICO]` | Nome descritivo da audiência | Aberto Mulheres · Int. Beleza · Envolvimento 30D · LAL Lista Clientes · Luxo |
+| `[CONVERSÃO]` | Local da conversão | SITE · WPP · Formulário - Meta · Seguidores · Perfil IG · Formulário - Respondi |
+| `[GEO]` | Localização geográfica | BR · SP · RJ · Raio 10km · Mix cidades · bairros nobres |
+
+**Exemplos:**
+- `[Aberto Mulheres 25-55_WPP_BR]`
+- `[Int. Cirurgia Plástica_SITE_SP]`
+- `[RMKT Envolvimento 90D_WHATS_IG_BR]`
+
+### 2.3 Nível de anúncio (Ad)
+
+**Objetivo:** identificar o criativo, a variação e a data de upload, para controle de
+validade e fadiga.
+
+```
+[DATA][NOME DO CRIATIVO][FORMATO][VARIAÇÃO][TIPO]
+```
+
+| Campo | Descrição | Valores |
+|---|---|---|
+| `[DATA]` | Data de subida do anúncio | 16.jan · jan26 · 16.01 |
+| `[NOME]` | Identificação visual rápida | Ingrid Espelho · Felipe Box · Antes e Depois — ou o início da legenda do post |
+| `[FORMATO]` | Tipo de mídia | IMG (imagem) · VID (vídeo) · CAR (carrossel) |
+| `[VARIAÇÃO]` | Teste A/B (opcional) | Copy A · Copy B · Capa 1 · Capa 2 · Ad1 · V1 · V2 |
+| `[TIPO]` | Posicionamento do post | Feed · Dark post |
+
+**Exemplos:**
+- `[16.01_AnteseDepois_IMG_V1_Feed]`
+- `[16.01_Depoimento_VID_V1_Feed]`
+- `[16.01_AnteseDepois_CAR_V1_Feed]`
+- `[25.02_A flacidez facial não aparece_CAR_Feed]`
+
+### 2.4 Glossário de abreviações
+
+Para manter a consistência, toda a equipe deve usar as mesmas siglas.
+
+| Sigla | Significado |
 |---|---|
-| FUNIL | TOFU · MOFU · BOFU |
-| OBJETIVO | Tráfego · Msgs · Leads · Vendas · Engaj · Alcance · LEAD-FORM · RESPONDI |
-| PRODUTO | DrIngrid · R24R · Botox · Lipo · Mama · Abdomen · Mommy · WPP … |
-| TIPO | `[TESTE]` ou `[ESCALA]` |
-| ORÇAMENTO | ABO (por conjunto) ou CBO (por campanha) |
+| LAL 1% | Lookalike 1% (Semelhante) |
+| RMKT | Remarketing — público que já interagiu |
+| WHATS | WhatsApp |
+| DIRECT | Mensagem no Instagram |
+| IG | Instagram |
+| FB | Facebook |
+| CBO | Campaign Budget Optimization — orçamento na campanha |
+| ABO | Ad Set Budget Optimization — orçamento no conjunto |
+| AUTO | Posicionamento automático |
+| ADV | Advantage (Andrômeda) |
 
-### Conjunto de anúncios
-```
-[NUMERAÇÃO + PÚBLICO][CONVERSÃO][GEO]
-```
-Exemplos: `[00-Aberto Mulheres 25-55_WPP_BR]` · `[01-Int. Cirurgia Plástica_SITE_SP]`
+### 2.5 Exemplo de estrutura completa
 
-### Anúncio
 ```
-[DATA][NOME DO CRIATIVO][FORMATO][VARIAÇÃO][TIPO][DATA POST]
+Campanha: [TOFU][Tráfego][Perfil Ingrid][TESTE][ABO]
+├── Conjunto: [Aberto Mulheres 25-55_BR]
+│   ├── Anúncio: [16.01_AnteseDepois_IMG_V1_Feed]
+│   └── Anúncio: [16.01_Depoimento_VID_V1_Feed]
+└── Conjunto: [Int. Cirurgia Plástica_SP]
+    └── Anúncio: [25.02_A flacidez facial não aparece_CAR_Feed]
 ```
-| Campo | Valores |
-|---|---|
-| DATA | Data de upload (16.jan, jan26) |
-| FORMATO | IMG · VID · CAR (Carousel) |
-| VARIAÇÃO | Copy A / Copy B |
-| TIPO | Feed · Dark post |
+
+### 2.6 Pontos em aberto
+
+Divergências entre o documento de nomenclatura e o Playbook, a resolver com a Coordenação:
+
+1. **`[ADV]` × regra inegociável.** O documento de nomenclatura prevê a tag `[ADV]` para
+   campanhas com público Advantage, mas o Playbook (§3.3) e o `checklists/setup-conta.md`
+   determinam Advantage+ Audience **desativado**. Definir em que casos o Advantage é
+   permitido — ou a tag não deve ser usada.
+2. **Campo `[DATA]` no nível de campanha.** O cabeçalho do documento lista
+   `[FUNIL][OBJETIVO][PRODUTO/EXPERT][TIPO][DATA]`, mas a tabela de campos e os exemplos
+   usam `[ORÇAMENTO]` e `[ADV]`, sem `[DATA]`. Adotada aqui a versão da tabela e dos
+   exemplos.
+3. **`VD` × `VID`.** Um dos exemplos do documento usa `VD` para vídeo; a tabela de campos
+   define `VID`. Padronizado aqui como `VID`.
 
 ---
 

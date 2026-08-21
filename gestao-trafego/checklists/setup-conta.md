@@ -41,9 +41,13 @@ Complementos: `validacao-ativos-meta.md` (R1–R6, antes do setup) ·
 - [ ] GA4 vinculado ao Google Ads, Google Signals ativo, `generate_lead` como conversão ✅
 
 ### Nomenclatura
-- [ ] Campanha: `[FUNIL][OBJETIVO][PRODUTO][TIPO][ORÇAMENTO]` ✅
-- [ ] Conjunto: `[NUMERAÇÃO-PÚBLICO][CONVERSÃO][GEO]` ✅
+- [ ] Campanha: `[FUNIL][OBJETIVO][PRODUTO/EXPERT][TIPO][ORÇAMENTO][ADV]` ✅
+- [ ] Conjunto: `[PÚBLICO][CONVERSÃO][GEO]` ✅
 - [ ] Anúncio: `[DATA][NOME][FORMATO][VARIAÇÃO][TIPO]` ✅
+- [ ] Siglas conforme o glossário (LAL, RMKT, WHATS, DIRECT, IG, FB, CBO, ABO, AUTO, ADV) ✅
+- [ ] Formato do anúncio grafado como IMG / VID / CAR (nunca `VD`) ✅
+
+Detalhamento dos campos e exemplos: `data/padroes-stark.md` §2.
 
 ### Coerência de Campanha
 - [ ] Campanha foca em CORPO **ou** FACE — nunca ambos ✅
