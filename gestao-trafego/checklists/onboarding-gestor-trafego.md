@@ -35,6 +35,19 @@ onboarding como concluído. Nada é marcado como feito sem evidência registrada
 - [ ] Criativos de onboarding subidos com classificação por nível de consciência
 - [ ] Pixel verificado e eventos de conversão configurados
 
+## Mensagem automática do WhatsApp (CTWA)
+Aplicável se a conta tem anúncios com objetivo "Mensagens" e destino WhatsApp.
+- [ ] Modelos de mensagem criados e salvos no Gerenciador (procedimento + origem)
+- [ ] Nomes dos modelos na convenção `[Procedimento] — [Origem]`, sem duplicidade
+- [ ] Ice breakers configurados em cada modelo
+- [ ] Todo anúncio CTWA com mensagem personalizada — nenhuma sugestão de IA como texto final
+- [ ] Origem correta (clique direto × formulário) identificada em cada anúncio
+- [ ] Procedimento da mensagem confere com o criativo em veiculação
+- [ ] Nenhum colchete `[ ]` de rascunho esquecido nos textos publicados
+- [ ] Pré-visualizações conferidas e prints anexados às tarefas dos anúncios
+- [ ] Bootstrap feito, se o cliente chegou com anúncios de destino WhatsApp já ativos
+- [ ] Procedimentos sem modelo sinalizados ao Head de Tráfego
+
 ## Google Ads
 - [ ] Campanhas separadas por Corporal e Facial
 - [ ] Termos Genéricos/Institucionais presentes em todas as campanhas

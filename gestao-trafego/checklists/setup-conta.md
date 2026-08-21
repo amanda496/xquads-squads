@@ -49,6 +49,19 @@ Complementos: `validacao-ativos-meta.md` (R1–R6, antes do setup) ·
 
 Detalhamento dos campos e exemplos: `data/padroes-stark.md` §2.
 
+### Mensagem automática do WhatsApp (CTWA)
+Aplica-se a todo anúncio com objetivo "Mensagens" e destino WhatsApp.
+Detalhamento: `mensagem-whatsapp-ctwa.md` · textos: `data/mensagens-ctwa.md`.
+- [ ] Modelos de mensagem salvos no Gerenciador para cada procedimento + origem do cliente ✅
+- [ ] Nome do modelo na convenção `[Procedimento] — [Origem]` ✅
+- [ ] Ice breakers configurados no modelo ✅
+- [ ] Sugestão automática / gerada por IA **removida** de todo anúncio ✅
+- [ ] Origem correta identificada por anúncio (clique direto × formulário antes) ✅
+- [ ] Procedimento da mensagem é exatamente o do criativo em veiculação ✅
+- [ ] Tom formal: sem emojis, sem gírias, sem frases longas ✅
+- [ ] Nenhum colchete `[ ]` de rascunho esquecido no texto ✅
+- [ ] Pré-visualização conferida e print anexado à tarefa do anúncio ✅
+
 ### Coerência de Campanha
 - [ ] Campanha foca em CORPO **ou** FACE — nunca ambos ✅
 - [ ] Funil correto para o objetivo (não usar Alcance para BOFU) ✅

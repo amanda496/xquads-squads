@@ -102,6 +102,15 @@ Ver `data/padroes-stark.md` para públicos, nomenclatura e UTMs.
 - Aplicar as regras inegociáveis — ver `checklists/setup-conta.md`
 - Aplicar a nomenclatura padrão nos 3 níveis
 - Configurar UTMs em todos os anúncios, sem exceção
+- **Criar e salvar os modelos de mensagem do WhatsApp (CTWA)** para cada combinação
+  procedimento + origem que o cliente vai anunciar — ver `data/mensagens-ctwa.md` e
+  `checklists/mensagem-whatsapp-ctwa.md`, Parte 1
+  - Uma vez por combinação; depois os anúncios só selecionam o modelo pronto
+  - Ice breakers configurados junto com o modelo
+  - Nome no padrão `[Procedimento] — [Origem 1: Anúncio direto | Origem 2: Formulário]`
+  - 🚫 Nunca aceitar como texto final a sugestão gerada por IA do Gerenciador
+- **Bootstrap CTWA:** se o cliente chega com anúncios de destino WhatsApp já ativos,
+  passar cada um pela Parte 2 do checklist antes de seguir
 
 ### Bloco 4 — Setup Google Ads
 
@@ -158,6 +167,15 @@ primeiros 30 dias (fadiga de frequência). Verba maior → separar por procedime
 
 **Criativos de onboarding:** subir classificados por nível de consciência P0–P5 —
 ver `data/padroes-stark.md`.
+
+**Mensagem do WhatsApp por anúncio (CTWA):** para cada anúncio com objetivo "Mensagens" e
+destino WhatsApp, antes de publicar — ver `checklists/mensagem-whatsapp-ctwa.md`, Parte 2:
+- Identificar a origem (Origem 1 clique direto · Origem 2 formulário antes do WhatsApp)
+- Selecionar o modelo salvo correspondente ao procedimento + origem — não criar do zero
+- Remover qualquer sugestão automática ou gerada por IA do campo
+- Ajustar o final da frase à oferta do criativo, mantendo a abertura fixa da origem
+- Conferir a pré-visualização e anexar o print na tarefa do anúncio no ClickUp
+- Ao duplicar anúncio, revisar a oferta antes de publicar — o modelo vem junto, a oferta não
 
 **Fechamento:**
 - Registrar todas as configurações no dossiê do cliente
@@ -231,6 +249,9 @@ ver `data/padroes-stark.md`.
 - Correspondência Ampla no Google Ads → **VETO**
 - Campanha mistura CORPO + FACE → **VETO**
 - Anunciar procedimento que o médico não opera → **VETO**
+- Publicar anúncio CTWA com a sugestão de mensagem gerada por IA como texto final → **VETO**
+- Mensagem CTWA citando procedimento diferente do criativo em veiculação → **VETO**
+- Mensagem CTWA publicada com colchete `[ ]` de rascunho esquecido no texto → **VETO**
 - Iniciar BOFU sem público quente mínimo de 1.000 pessoas → **VETO**
 - Definir CPL meta acima de R$ 20 sem justificativa de nicho → **ALERTA**
 - Verificação da empresa "Em análise" há mais de 7 dias úteis → **ALERTA**, acionar Tecnologia
@@ -246,11 +267,16 @@ ver `data/padroes-stark.md`.
 | Público CRM vazio | Esperado até a 1ª execução real do funil; checar automações Publicadas |
 | UTM não aparece no card do contato | Confirmar parâmetros completos e aguardar o próximo clique |
 | Cliente sem conteúdo validado | Cenário A do TOFU: subir tudo em CBO, validar vencedores em ABO |
+| Procedimento do anúncio sem modelo de mensagem CTWA | Usar a genérica da origem correta e sinalizar ao Head de Tráfego para criar o modelo — não bloqueia o anúncio |
+| Seção "Modelo de mensagem" não aparece no anúncio | Confirmar objetivo "Mensagens" e destino "WhatsApp" — em outros objetivos a seção não existe |
+| Opção "Salvar modelo" não existe na conta | Registrar como limitação e usar o texto direto por anúncio |
 
 ### Escalonamento — Escadinha Stark
 | Situação | Quem resolve | Papel do outro |
 |---|---|---|
 | Dúvida sobre segmentação ou criativo | Coordenador | Fica ciente via planilha de validados |
+| Procedimento sem modelo de mensagem CTWA na biblioteca | Gestor cria a partir do genérico | Head de Tráfego registra na biblioteca central |
+| Campo de mensagem CTWA não aparece com objetivo/destino corretos | Head de Tráfego | Pode ser limitação da conta ou da versão |
 | Conta bloqueada ou erro de pixel | Coordenador | Fica ciente se houver impacto no faturamento |
 | Conflito leve / dúvida técnica do cliente | Coordenador | Monitora NPS e retenção |
 | Crise grave / ameaça de cancelamento | Head | Recebe o histórico completo do coordenador |
@@ -261,3 +287,6 @@ Todos os itens de `checklists/onboarding-gestor-trafego.md` aprovados, mais:
 - Configurações registradas no dossiê e pendências documentadas
 - Conferência final com o Coordenador realizada
 - Próximos passos comunicados ao @media-buyer
+
+Após o onboarding, os anúncios CTWA da conta entram no **ciclo de auditoria mensal** do Head
+de Tráfego (POP-OPR-032 · A5) — checagem completa de todos os anúncios ativos, não amostragem.
