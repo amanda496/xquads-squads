@@ -179,6 +179,9 @@ Apresentado em maio/2026 como resposta à atualização do algoritmo do Meta. A 
 - **Públicos:** Advantage+ como recomendação principal, mais personalizados (interação com o IG,
   visitantes, lista de WhatsApp) e **exclusão de quem já agendou**.
 
+> ⚠ **Ponto de alerta em aberto.** O uso do Advantage+ dentro do Andrômeda vem gerando **reclamação de
+> seguidor desqualificado e de seguidor vindo de localização errada**. Detalhe no risco 4.
+
 **Os três níveis de criativo:** C1 conteúdo de valor / quebra de padrão / exploração de dor · C2 hard
 sell, demonstrativos, antes e depois, comparativos · C3 prova social, quebra das 5 objeções (preço,
 tempo, confiança, adequação, urgência), urgência real. **CTA único no fundo: mensagem no WhatsApp.**
@@ -612,7 +615,23 @@ Por trás disso há uma **virada de tese em curso**: cerca de **50 clientes já 
 proposta de priorizar **lead qualificado em vez de seguidor barato**. A área foi construída sobre CPS
 e está migrando para uma régua de qualificação — as duas convivem hoje.
 
-**4. A documentação está atrás da prática — e o CPS é o caso mais grave.** A métrica-mãe da área
+**4. Andrômeda e o Advantage+ estão gerando reclamação de qualidade de audiência.** É o ponto de
+alerta mais recente do método. Com a entrega no automático, chegam **reclamações de seguidores
+desqualificados** — gente que segue mas não tem perfil de paciente — e de **seguidores vindos de
+localizações erradas**, fora da praça onde o médico opera.
+
+O efeito é perverso para a régua da área: **o CPS melhora enquanto a qualidade da audiência piora.**
+Seguidor barato na cidade errada continua contando como seguidor. É a mesma classe de problema que a
+área já tentou remediar em julho com a **regra de lance negativo de 90% para público masculino**,
+criada justamente para conter entrega e comentário inadequado em campanha Andrômeda — ou seja, o
+primeiro remendo já existe, e o problema é maior que ele.
+
+**Por que isso pesa agora:** a virada para qualificação via CRM (risco 3) e essa reclamação apontam
+para o mesmo lugar — CPS sozinho não distingue seguidor bom de seguidor ruim. **Quem assumir decide se
+mantém o Advantage+ como padrão, se restringe geografia manualmente, ou se troca a régua.** Vale
+levantar o volume real de reclamações por conta antes de decidir.
+
+**5. A documentação está atrás da prática — e o CPS é o caso mais grave.** A métrica-mãe da área
 mudou de fórmula **e** de meta (de custo total ÷ variação do Reportei, meta R$ 2,59, para custo de
 topo ÷ seguidores pagos, meta R$ 2,00), e nenhum dos documentos de método ou de régua foi atualizado:
 o documento para estrategistas (jun) traz as bandas antigas, a planilha de mar/2026 calcula o CPS
@@ -627,29 +646,29 @@ ideal ≤ R$ 1,50 como referência de anúncio, o que se sobrepõe à meta de co
 **Nada disso está errado — está apenas em documentos que não conversam.** Consolidar em uma fonte
 única é a dívida técnica de processo mais barata de pagar.
 
-**5. O Stark OS é obrigatório, está ligado ao score e ainda é instável.** A combinação exige atenção:
+**6. O Stark OS é obrigatório, está ligado ao score e ainda é instável.** A combinação exige atenção:
 enquanto houver divergência de número no dashboard, cobrar score pelo OS gera contestação legítima.
 
-**6. Registro e comprovação é o gargalo humano recorrente.** Aparece em todo gestor, em todo mês, em
+**7. Registro e comprovação é o gargalo humano recorrente.** Aparece em todo gestor, em todo mês, em
 toda régua: print sem data, relatório sem evidência, otimização sem justificativa, link de criativo
 ausente. Foi o tema de metade das reuniões de área de agosto. **Não é falta de clareza — é falta de
 mecanismo de verificação.**
 
-**7. Conhecimento concentrado em uma pessoa.** CRM e formulário nativo moram no Gustavo; ferramenta e
+**8. Conhecimento concentrado em uma pessoa.** CRM e formulário nativo moram no Gustavo; ferramenta e
 padrão no Vinicius; o Stark OS no Anderson. Nenhum tem backup formal.
 
-**8. Carteiras desbalanceadas.** Vinicius 17, Luiz 15, Gustavo 15, Thiago 14 — contra Richard 2 e
+**9. Carteiras desbalanceadas.** Vinicius 17, Luiz 15, Gustavo 15, Thiago 14 — contra Richard 2 e
 Nicole 10 (com dois meses de casa). A distribuição não segue senioridade nem complexidade.
 
-**9. Churn e onboarding simultâneos.** Saídas recentes (Rodrigo Gomide, a clínica da Nicole, Marcelo
+**10. Churn e onboarding simultâneos.** Saídas recentes (Rodrigo Gomide, a clínica da Nicole, Marcelo
 Santos) e **8 onboards na fila** em agosto. A hipótese registrada para a saída do Rodrigo: falta de
 resultado percebido nos três primeiros meses + acompanhamento interrompido. A proposta que saiu
 disso: **antecipar o kickoff** para mostrar valor mais rápido e **pesquisa de saída** para todo
 cancelamento.
 
-**10. Agenda fragmentada.** Ver seção 6.
+**11. Agenda fragmentada.** Ver seção 6.
 
-**11. A transição de liderança acumula com uma situação de pessoal em aberto.** Na Daily Líderes de
+**12. A transição de liderança acumula com uma situação de pessoal em aberto.** Na Daily Líderes de
 **20/08** foi discutida a situação do **Luiz Eduardo** — ausência em reuniões de cliente, distância,
 reclamações de volume de leads em duas contas (Victor Augusto e Luciano Esteves) — e a
 **redistribuição das 12 a 14 contas dele** entre Samuel, Nicole, Wallison e Gustavo, com a
@@ -705,7 +724,9 @@ assume** — o que segue, o que muda e o que para.
 7. **Duas decisões de pessoal chegam em aberto** — Luiz Eduardo e o pleito de mérito do Thiago — e as
    duas têm risco real de perda de pessoa. Detalhe em
    [`../dossies-gestores-trafego/`](../dossies-gestores-trafego/README.md).
-8. **As oito listas do ClickUp são herdadas inteiras**, com o papel de aprovação que quatro delas
+8. **A qualidade de audiência do Andrômeda está em questionamento** — reclamação de seguidor
+   desqualificado e de localização errada, com o Advantage+ no centro. Decisão de método em aberto.
+9. **As oito listas do ClickUp são herdadas inteiras**, com o papel de aprovação que quatro delas
    exigem e as três que estão em obra. Nenhuma decisão sobre elas foi tomada por antecipação.
 
 ---
