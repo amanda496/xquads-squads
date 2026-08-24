@@ -67,7 +67,7 @@ considerado era o total (06/02/2026). A régua atual isola o que o topo de funil
 | **Durante a semana** | Monitorar e otimizar; documentar no Status Report |
 | **Terça, 14h** | Relatório semanal automático enviado aos clientes |
 | **Até quarta** | Preencher a planilha mestre com as métricas da semana anterior |
-| **Até sexta** | Relatório da semana anterior (seg–dom) entregue ao cliente |
+| **Segunda** | **Relatório da semana anterior (seg–dom) entregue ao cliente** — prazo alterado; era sexta da semana seguinte |
 
 **Três dependências que travam o ciclo inteiro:** a **Agenda de Postagem aprovada antes de
 segunda** (sem ela, o teste da semana atrasa e o dado chega tarde); os **dados do comercial do
@@ -394,14 +394,95 @@ Invictus. **É o item de agenda mais fácil de melhorar e o de maior retorno ime
 
 ---
 
-## 7. Processos documentados
+## 7. A estrutura do ClickUp — as 5 listas do tráfego
+
+O ClickUp é onde a operação é cobrada e verificada. A área tem **cinco listas**, e o que importa em
+cada uma é **o prazo e a quem a atividade se aplica** — porque não é a mesma coisa para todos os
+gestores.
+
+### Quadro de prazos da área
+
+O resumo para apresentar junto com a estrutura — cada atividade com o seu prazo:
+
+| Atividade | Prazo | Quem |
+|---|---|---|
+| **Relatório ao cliente** (semana seg–dom) | **Segunda-feira** *(mudou — era sexta da semana seguinte)* | Todos |
+| **Checagem de orçamento** | **Diária, de segunda a sexta**, com aprovação da liderança | Todos |
+| **Envio de Pix / boleto** | **Data personalizada por cliente** | Só contas que não pagam com cartão |
+| **Planilha mestre** | Até **quarta-feira** | Todos |
+| **Registro de otimização no Stark OS** | Em até **24h** da ação | Todos |
+| **Registro de otimização no ClickUp** (Lista 3) | Ao longo da semana; **revisão na sexta** | Todos |
+| **Status Report** | Semanal, registro contínuo | Todos |
+| **Teste de criativos da semana** | Segunda / terça | Todos |
+| **Conversão offline em todo BOFU** | **04/09** *(atividade pontual, Lista 2)* | Todos |
+
+### Lista 1 · Controle de Orçamento
+
+Tem um documento próprio descrevendo o processo. Duas atividades:
+
+| Atividade | Prazo | A quem se aplica |
+|---|---|---|
+| **Envio de Pix / boleto mensal** | **Data personalizada por cliente** — cada conta tem o seu dia | **Só os clientes que não pagam com cartão.** A maioria da carteira é cartão, então a atividade cai para alguns gestores, não para todos |
+| **Checagem diária de orçamento** | **Todos os dias, de segunda a sexta** | **Todos os gestores** — cada gestor tem a sua checagem, cobrindo as contas dele |
+
+**O que a checagem diária verifica:** se a conta tem **saldo suficiente** e se o gasto **não passou do
+orçamento diário previsto**. Concluída a checagem, o gestor **coloca a tarefa em análise** para a
+liderança dar o OK — ou seja, a atividade só fecha com aprovação, não por autodeclaração.
+
+> É a única atividade da área com **cadência diária e revisão da liderança** no mesmo fluxo. Vale
+> preservar o desenho: é o mecanismo que evita conta pausada por falta de saldo, que é o erro mais
+> caro da operação (reinicia o aprendizado da campanha).
+
+### Lista 2 · Atividades pontuais
+
+**Tudo o que não é recorrente entra aqui.** É a lista que absorve o trabalho que não tem processo
+próprio e não cabe na rotina semanal.
+
+| Tipo de atividade | Exemplos |
+|---|---|
+| **Liberação de acesso** | Acesso ao MCP do Reportei; acesso a conta de cliente no Meta Ads ou no Google Ads; qualquer acesso que não seja parte de um processo formal |
+| **Implantação com prazo definido** | "Ativar conversão offline em todos os anúncios" — a diretriz de 13/08 com prazo em 04/09 entrou aqui como atividade pontual |
+
+**Como o prazo funciona nesta lista:** não há cadência fixa — **cada atividade carrega o seu próprio
+prazo**, definido na criação. É a diferença fundamental em relação à Lista 1, onde a cadência é a
+regra (diária ou data fixa do cliente).
+
+### Lista 3 · Otimização de campanhas
+
+**O registro de tudo o que foi mexido nas contas.** É onde ficam todas as modificações e otimizações
+feitas em Meta e Google ao longo da semana.
+
+| | |
+|---|---|
+| **Prazo / cadência** | Registro ao longo da semana; **revisão da liderança na sexta-feira** |
+| **Quem** | Todos os gestores |
+| **Fluxo** | O gestor registra e **coloca em revisão**; a liderança confere na sexta se foi feito corretamente — inclusive se a justificativa atende à régua do **"porquê do porquê"** |
+| **Estrutura atual** | Uma **atividade-mãe da liderança** com uma **atividade-filha por gestor**, e dentro dela uma subatividade por processo de otimização, de Meta e de Google, **para cada cliente** |
+| **Apoio** | A lista tem documentação anexa explicando como o registro deve ser feito |
+
+**Está em transição.** O modelo atual continua valendo, mas há uma **versão 2.0 em construção**, com o
+processo bem mais reduzido — a atividade de registro passa a ser a versão resumida da 2.0. Quem
+assumir vai encontrar as duas coisas ao mesmo tempo: a lista antiga em uso e a nova sendo montada.
+
+> **Atenção na transição:** este registro é a fonte que sustenta o Status Report, a auditoria de
+> liderança e o pilar de metas ligado a otimização. Trocar o modelo sem migrar o histórico deixa um
+> buraco justo no período de troca de liderança.
+
+### Listas 4 e 5
+
+*Pendente de detalhamento com a Amanda — cada uma com as atividades, o prazo de cada atividade e a
+quem se aplica, no mesmo formato acima.*
+
+---
+
+## 8. Processos documentados
 
 A área tem **11 processos escritos** (documento "Processos Área de Tráfego", fev/2026, e o Playbook
 de Onboarding v1.0, abr/2026). Resumo do que existe e onde está o risco de cada um:
 
 | Processo | Essência | Risco |
 |---|---|---|
-| **Relatórios via Reportei** | Template Tráfego 2.0 → marco na Linha do Tempo → link no WhatsApp. Prazo: sexta da semana seguinte | O módulo de relatórios do Stark OS deve substituir o Reportei — transição não concluída |
+| **Relatórios via Reportei** | Template Tráfego 2.0 → marco na Linha do Tempo → link no WhatsApp. **Prazo: segunda-feira** (era sexta da semana seguinte) | O módulo de relatórios do Stark OS deve substituir o Reportei — transição não concluída. **O prazo novo é mais curto: o gestor tem o fim de semana a menos** |
 | **Recarga de saldo (boleto/PIX)** | Gasto diário × 5 = piso de segurança. PIX quando possível; boleto do Google com antecedência | Conta pausada por falta de saldo reinicia o aprendizado — já aconteceu com vários clientes |
 | **Transição de gestor** | 9 etapas no ClickUp. O estrategista é a ponte: se o gestor muda e ele fica, o cliente sente que o "cérebro" continua | Nenhuma transição é oficial sem todas as subetapas concluídas no ClickUp |
 | **Onboarding de cliente** | Diagnóstico → Cenário A (conta do zero, CBO 3 públicos) ou B (conteúdo validado, ABO 7 dias) → públicos → funil → criativos da biblioteca | 8 onboards simultâneos na fila em agosto |
@@ -420,7 +501,7 @@ chute; feeling com estrutura é expertise."*
 
 ---
 
-## 8. Stack e a virada tecnológica de 2026
+## 9. Stack e a virada tecnológica de 2026
 
 ### O que a área usa
 
@@ -468,7 +549,7 @@ não é contexto; é preciso descrever características, histórico de incidente
 
 ---
 
-## 9. Linha do tempo da área — out/2025 a ago/2026
+## 10. Linha do tempo da área — out/2025 a ago/2026
 
 | Quando | O que aconteceu |
 |---|---|
@@ -484,7 +565,7 @@ não é contexto; é preciso descrever características, histórico de incidente
 
 ---
 
-## 10. Gargalos e riscos estruturais
+## 11. Gargalos e riscos estruturais
 
 **1. O fundo de funil é o gargalo — e é conhecido.** 44,2% das contas concluíram a adequação de topo,
 mas só **9,1% o meio e 6,5% o fundo**. Toda a energia de julho foi para o topo. É onde está o
@@ -546,7 +627,7 @@ desempenho da liderança e plano de redistribuição em andamento.
 
 ---
 
-## 11. Pendências e decisões abertas na data de corte
+## 12. Pendências e decisões abertas na data de corte
 
 | Pendência | Dono | Prazo | Situação |
 |---|---|---|---|
@@ -567,7 +648,7 @@ desempenho da liderança e plano de redistribuição em andamento.
 
 ---
 
-## 12. O que a nova liderança precisa saber na primeira semana
+## 13. O que a nova liderança precisa saber na primeira semana
 
 1. **A prioridade única de agosto já está definida e é mensurável:** 100% da operação no Stark OS até
    30/08, seguindo o método do Lúcio. Verificação gestor a gestor, semanal. Não invente prioridade
