@@ -394,11 +394,12 @@ Invictus. **É o item de agenda mais fácil de melhorar e o de maior retorno ime
 
 ---
 
-## 7. A estrutura do ClickUp — as 5 listas do tráfego
+## 7. A estrutura do ClickUp — as listas do tráfego
 
-O ClickUp é onde a operação é cobrada e verificada. A área tem **cinco listas**, e o que importa em
-cada uma é **o prazo e a quem a atividade se aplica** — porque não é a mesma coisa para todos os
-gestores.
+O ClickUp é onde a operação é cobrada e verificada. O que importa em cada lista é **o prazo e a quem a
+atividade se aplica** — porque não é a mesma coisa para todos os gestores. Oito listas detalhadas
+abaixo: seis em operação, uma criada e nunca iniciada, uma em construção. Inventário com status no
+final da seção.
 
 ### Quadro de prazos da área
 
@@ -413,6 +414,7 @@ O resumo para apresentar junto com a estrutura — cada atividade com o seu praz
 | **Registro de otimização no Stark OS** | Em até **24h** da ação | Todos |
 | **Registro de otimização no ClickUp** (Lista 3) | Ao longo da semana; **revisão na sexta** | Todos |
 | **Status Report** | Semanal, registro contínuo | Todos |
+| **Atualização de públicos** (video view) | **1× por mês**, no mínimo | Todos, por cliente |
 | **Teste de criativos da semana** | Segunda / terça | Todos |
 | **Conversão offline em todo BOFU** | **04/09** *(atividade pontual, Lista 2)* | Todos |
 
@@ -468,10 +470,95 @@ assumir vai encontrar as duas coisas ao mesmo tempo: a lista antiga em uso e a n
 > liderança e o pilar de metas ligado a otimização. Trocar o modelo sem migrar o histórico deixa um
 > buraco justo no período de troca de liderança.
 
-### Listas 4 e 5
+### Lista 4 · Biblioteca de anúncios
 
-*Pendente de detalhamento com a Amanda — cada uma com as atividades, o prazo de cada atividade e a
-quem se aplica, no mesmo formato acima.*
+**É onde os criativos são solicitados.** O gestor abre a solicitação, ela vai para a **copy**, e o
+criativo **volta** para ele subir. Tem documentação na aba de documentos da lista descrevendo o
+processo de solicitação.
+
+> ⚠ **Este processo não está otimizado, e a liderança sabe.** Foi criado um processo, depois foi
+> criado outro por cima, e a reunião com a **Dani** para consolidar os dois **nunca aconteceu** — a
+> pendência atravessou toda a gestão. **Precisa ser revisto com ela.**
+
+É a única das cinco listas em que o próprio dono do processo declara que a documentação vigente não
+serve. Para quem assume: não trate a documentação desta lista como fonte confiável antes dessa
+conversa.
+
+### Lista 5 · Atualizar públicos
+
+Tem **POP** (procedimento operacional padrão) na aba de documentos da lista.
+
+| | |
+|---|---|
+| **Atividade** | Atualização dos públicos da conta — **principalmente os públicos de vídeo (video view)** |
+| **Prazo / cadência** | **Pelo menos uma vez por mês** |
+| **Quem** | Todos os gestores — **uma atividade gerada por cliente**, com o gestor da conta como responsável |
+| **Estrutura** | **Tarefa-mãe da liderança**, **tarefa-filha de cada gestor** |
+| **Comprovação** | O procedimento exige **informar qual público foi atualizado**, não só marcar como feito |
+
+### Lista 6 · Relatório semanal
+
+Tem **POP** na aba de documentos da lista.
+
+| | |
+|---|---|
+| **Atividade** | Envio do relatório semanal ao cliente — **uma atividade por cliente**, com o **template** anexo, para o gestor saber exatamente como enviar |
+| **Prazo** | **Segunda-feira** *(prazo novo — era sexta da semana seguinte)* |
+| **Quem** | Todos os gestores |
+| **Comprovação** | **Print.** O gestor envia o relatório conforme o modelo, anexa o print e **coloca em revisão**; a liderança dá o OK confirmando se foi enviado ou não |
+
+> **É daqui que vem a régua "relatório sem print não conta".** Vale saber ao ler os dossiês
+> individuais: quando um gestor aparece com "quatro semanas de relatório sem evidência", o que está
+> em aberto não é o relatório — é a comprovação exigida por esta lista. A entrega pode ter
+> acontecido; sem o print ela é contabilizada como não entregue.
+
+### Lista 7 · Teste Tráfego <sub>criada, nunca iniciada</sub>
+
+**A ideia:** ser o lugar onde os **estrategistas** registram os testes que estão rodando nas contas
+**e que fogem do padrão** da área.
+
+**O estado real:** o processo **não foi desenhado** e a lista **não foi iniciada**. Existe no ClickUp e
+está vazia.
+
+> Vale conectar com o que foi apresentado ao CEO em 04/08: a proposta dos estrategistas Bruno e Breno
+> era exatamente essa — "novos testes a partir da estrutura Andrômeda, gestores documentam, liderança
+> monitora". **A lista para isso já existe; o que falta é o processo e alguém puxando.** É a
+> oportunidade mais barata da estrutura: o container está pronto.
+
+### Lista 8 · Otimização 2.0 <sub>em construção</sub>
+
+É a substituta da Lista 3. Traz as **atividades resumidas**, já **geradas para cada cliente**, e
+**passa a ser a lista de otimização de campanhas** quando entrar em operação.
+
+---
+
+### Inventário e status
+
+| # | Lista | Status |
+|---|---|---|
+| 1 | **Controle de Orçamento** | Em operação |
+| 2 | **Atividades pontuais** | Em operação |
+| 3 | **Otimização de campanhas** | Em operação — **será substituída pela 2.0** |
+| 4 | **Biblioteca de anúncios** | Em operação, **processo em conflito** (pendência com a Dani) |
+| 5 | **Atualizar públicos** | Em operação |
+| 6 | **Relatório semanal** | Em operação |
+| 7 | **Teste Tráfego** | **Criada, nunca iniciada** — processo não desenhado |
+| 8 | **Otimização 2.0** | **Em construção** — assume o lugar da Lista 3 |
+
+**Uma checagem antes de apresentar:** o levantamento começou com **"cinco listas do tráfego"** e o
+inventário fechou em **oito** — seis em operação, uma vazia e uma em construção. Vale conferir a
+contagem e o nome exato de cada uma no ClickUp antes de apresentar.
+
+**O padrão que aparece em quatro delas:** tarefa-mãe da liderança + tarefa-filha por gestor, e
+fechamento **em análise / em revisão** com OK da liderança — não por autodeclaração. É o mecanismo de
+verificação da área, e é o que sustenta o pilar de metas. **Se a nova liderança não assumir o papel de
+quem dá o OK, quatro listas param de fechar.**
+
+**A leitura de conjunto:** de oito listas, **três estão em obra ao mesmo tempo** — a Biblioteca de
+anúncios com dois processos sobrepostos, a Otimização migrando para a 2.0 e a Teste Tráfego nunca
+iniciada. É muita mudança de estrutura para entregar numa transição de liderança, e vale escolher a
+ordem: fechar a Biblioteca (que já atrapalha hoje), concluir a 2.0 (que tem histórico em risco) e
+deixar a Teste Tráfego para depois, quando houver dono.
 
 ---
 
@@ -631,6 +718,7 @@ desempenho da liderança e plano de redistribuição em andamento.
 
 | Pendência | Dono | Prazo | Situação |
 |---|---|---|---|
+| **Consolidar o processo de solicitação de criativos com a Dani** | Liderança + Dani | — | Dois processos sobrepostos na Biblioteca de anúncios; a reunião de ajuste nunca aconteceu e atravessou toda a gestão |
 | **Atualizar a régua de CPS em toda a documentação** | Liderança | — | Fórmula e meta mudaram (R$ 2,00, custo de topo ÷ seguidores pagos); documento para estrategistas, planilha de acompanhamento e pilar de metas seguem na base antiga |
 | **100% da operação no Stark OS** | Gestores + liderança | **30/08** | Meta apresentada ao CEO; migração em curso |
 | **Conversão offline em todo BOFU** | Gestores | **04/09** | Combinada em 13/08; não viável em TOFU de perfil |
