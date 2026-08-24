@@ -12,6 +12,9 @@ Cada dossiê responde a uma pergunta só: **como trabalhar bem com esta pessoa.*
 trabalha, como se comunica, o que a move, onde ela é forte, onde precisa desenvolver, como está a
 carga — e o manual prático de condução.
 
+> **Dossiê da área** (método, réguas, números, rituais, processos, stack e gargalos estruturais):
+> [`../dossie-area-trafego/`](../dossie-area-trafego/README.md)
+
 **Fonte:** X1s individuais conduzidos pela Amanda entre out/2025 e ago/2026, o ciclo de PDI & Avaliação
 de nov/2025, os X1s técnicos conduzidos pelo Vinicius em abr/2026, reuniões de área e reuniões de
 resultados/PRA. Cada afirmação é datada e rastreável ao documento de origem, listado no final de
