@@ -24,10 +24,22 @@ A tese central do negócio, dita em uma linha: **audiência aquecida converte; s
 fundo de funil perde eficiência.** É por isso que a métrica-mãe da área não é lead nem venda — é
 **CPS, o custo por seguidor**.
 
-> **CPS = investimento total ÷ variação de seguidores (Reportei)**
+> **Régua vigente — CPS ≤ R$ 2,00**
+> `CPS = custo das campanhas de topo de funil ÷ seguidores pagos`
 >
-> Investimento *total*, não só o de topo — "porque todas as campanhas resgatam seguidores"
-> (Amanda, 06/02). Variação, não bruto — é o saldo do período, ganhos menos perdas.
+> **Régua anterior — CPS ≤ R$ 2,59**
+> `CPS = custo total da conta ÷ variação de seguidores do Reportei`
+
+**As duas mudanças andam juntas e mudam a leitura da métrica.** O numerador saiu do investimento
+inteiro da conta para **só o topo de funil**; o denominador saiu da **variação líquida do Reportei**
+(ganhos menos perdas, orgânico incluído) para o **seguidor pago**. Numerador menor e denominador mais
+restrito — é por isso que a meta desceu de R$ 2,59 para R$ 2,00.
+
+A lógica da régua anterior era a de que "todas as campanhas resgatam seguidores", então o custo
+considerado era o total (06/02/2026). A régua atual isola o que o topo de funil efetivamente entregou.
+
+> ⚠ **Consequência prática:** série histórica apurada na régua anterior **não é comparável** com a
+> nova sem recálculo. Todos os números de julho neste dossiê foram apurados na régua antiga.
 
 ### As 11 entregas da área
 
@@ -66,12 +78,14 @@ métrica é estimada, se o dado não existe a seção é omitida.
 
 ## 2. Os números de julho/2026
 
-Da pauta apresentada ao CEO e ao Gerente de Operações em 04/08.
+Da pauta apresentada ao CEO e ao Gerente de Operações em 04/08. **Todos os valores desta seção foram
+apurados na régua anterior de CPS** (custo total da conta ÷ variação de seguidores do Reportei, meta
+R$ 2,59) — ver a ressalva na seção 1.
 
 | Indicador (julho) | Sem 1 | Sem 2 | Sem 3 | Sem 4 | Sem 5 | Leitura |
 |---|---|---|---|---|---|---|
 | **CPS Topo da área (agregado)** | R$ 1,65 | R$ 1,85 | R$ 1,57 | R$ 1,51 | R$ 1,53 | **−7,3% no mês** |
-| **% de clientes na meta** (CPS ≤ R$ 2,59) | 59,0% | 57,0% | 59,3% | 65,1% | 61,0% | média 60,3% |
+| **% de clientes na meta** (CPS ≤ R$ 2,59 — régua da época) | 59,0% | 57,0% | 59,3% | 65,1% | 61,0% | média 60,3% |
 | CPS médio por cliente | R$ 3,26 | R$ 3,69 | R$ 3,52 | R$ 2,94 | R$ 4,01 | Sem 5 distorcida por outlier |
 | % na meta — CPS Total | 26,5% | 25,6% | 25,6% | 25,3% | 37,8% | +11 p.p. na Sem 5 |
 
@@ -188,6 +202,7 @@ estrategista e gestor — não default.
 | Etapa | Objetivo | Métrica-chave | OK | Atenção / Pausar |
 |---|---|---|---|---|
 | **TOFU** | Atrair, parar o scroll, ganhar seguidor | **CPS** | ≤ R$ 1,50 | R$ 1,50–2,59 atenção · > R$ 2,59 pausar |
+| | | *(meta contratual hoje: **≤ R$ 2,00** na nova base — custo de topo ÷ seguidores pagos)* | | |
 | **MOFU** | Quebrar objeção, aquecer | **CTR** | ≥ 1,5% | 1,0–1,5% atenção · < 1,0% pausar |
 | **BOFU** | Levar ao agendamento | **CPL** | R$ 7–12 | R$ 12–20 atenção · > R$ 20 pausar |
 | **Google** | Capturar demanda ativa | **CPA** | < R$ 30 | ≥ R$ 30 pausar |
@@ -303,7 +318,8 @@ A meta mensal e a semestral do gestor são calculadas sobre sete pilares:
 2. **Churn** — **anula a meta mensal**
 3. **Status Report** — 100% ou zero
 4. **Relatórios** — 100% de entrega
-5. **Seguidores** — CPS ≤ R$ 2,59 em pelo menos 70% da carteira
+5. **Seguidores** — **CPS ≤ R$ 2,00** (custo de topo de funil ÷ seguidores pagos) em pelo menos 70%
+   da carteira. Era R$ 2,59 na base antiga (custo total ÷ variação do Reportei)
 6. **Fundo de funil** — ROI ≥ 1
 7. **Custo por conversão do Google** — CPA
 
@@ -321,7 +337,9 @@ caso.
 
 ### A régua por orçamento
 
-Da planilha de acompanhamento (mar/2026) — quanto se espera de cada faixa de verba:
+Da planilha de acompanhamento (mar/2026) — quanto se espera de cada faixa de verba. **A coluna de CPS
+máximo foi calculada na base antiga** e precisa ser refeita para a nova (custo de topo ÷ seguidores
+pagos, meta R$ 2,00):
 
 | Orçamento | Novos seguidores (mínimo) | Alta performance | 70% em topo | CPS máximo | Criativos escalados |
 |---|---|---|---|---|---|
@@ -481,11 +499,18 @@ pilar de sete da remuneração do time depende de um dado de terceiro não audit
 CRM + pixel. Foi decisão consciente e comunicada ao CEO, mas significa que **o padrão da área hoje
 não é único** — e quem assumir vai encontrar contas em dois mundos.
 
-**4. A documentação está atrás da prática.** Três exemplos concretos: o Playbook (abr) proíbe
-posicionamento **Advantage+ automático**, enquanto o roteiro Andrômeda (mai) recomenda **Advantage+
-de público** como padrão — são coisas diferentes, mas a leitura conjunta confunde; o Checklist
-manda avaliar em ciclo de 72h/7 dias, e em julho a diretriz passou a ser **monitoramento diário**
-para CBO de verba alta; o Playbook fixa CPS ideal ≤ R$ 1,50, e a meta contratual da área é R$ 2,59.
+**4. A documentação está atrás da prática — e o CPS é o caso mais grave.** A métrica-mãe da área
+mudou de fórmula **e** de meta (de custo total ÷ variação do Reportei, meta R$ 2,59, para custo de
+topo ÷ seguidores pagos, meta R$ 2,00), e nenhum dos documentos de método ou de régua foi atualizado:
+o documento para estrategistas (jun) traz as bandas antigas, a planilha de mar/2026 calcula o CPS
+máximo na base antiga, e o pilar de metas de fev/2026 fixa R$ 2,59. **É a correção mais urgente da
+documentação, porque o número que remunera o time depende dela.**
+
+Outros três exemplos do mesmo tipo: o Playbook (abr) proíbe posicionamento **Advantage+ automático**,
+enquanto o roteiro Andrômeda (mai) recomenda **Advantage+ de público** como padrão — são coisas
+diferentes, mas a leitura conjunta confunde; o Checklist manda avaliar em ciclo de 72h/7 dias, e em
+julho a diretriz passou a ser **monitoramento diário** para CBO de verba alta; o Playbook fixa CPS
+ideal ≤ R$ 1,50 como referência de anúncio, o que se sobrepõe à meta de conta.
 **Nada disso está errado — está apenas em documentos que não conversam.** Consolidar em uma fonte
 única é a dívida técnica de processo mais barata de pagar.
 
@@ -525,6 +550,7 @@ desempenho da liderança e plano de redistribuição em andamento.
 
 | Pendência | Dono | Prazo | Situação |
 |---|---|---|---|
+| **Atualizar a régua de CPS em toda a documentação** | Liderança | — | Fórmula e meta mudaram (R$ 2,00, custo de topo ÷ seguidores pagos); documento para estrategistas, planilha de acompanhamento e pilar de metas seguem na base antiga |
 | **100% da operação no Stark OS** | Gestores + liderança | **30/08** | Meta apresentada ao CEO; migração em curso |
 | **Conversão offline em todo BOFU** | Gestores | **04/09** | Combinada em 13/08; não viável em TOFU de perfil |
 | **Força-tarefa CRM + pixel** em toda a carteira | Liderança + gestores | "esta semana" (04/08) | ~50 integrados, ~40 com lista pronta para CSV |
@@ -548,8 +574,9 @@ desempenho da liderança e plano de redistribuição em andamento.
    nova antes de fechar essa.
 2. **O gargalo é o fundo de funil, não o topo.** O topo está em rota (CPS −7,3%, 61% na meta). Meio e
    fundo estão em 9,1% e 6,5% de adequação. É onde está o resultado que o cliente sente.
-3. **Consolide a documentação em uma fonte única.** Playbook, Processos, Checklist, roteiro Andrômeda
-   e as diretrizes de julho/agosto dizem coisas diferentes sobre o mesmo assunto. Uma tarde de
+3. **Comece a consolidação da documentação pelo CPS.** A métrica que remunera o time mudou de fórmula
+   e de meta (R$ 2,00 sobre custo de topo ÷ seguidores pagos) e a documentação inteira ainda descreve
+   a base antiga. Depois dela vêm Playbook, Processos, Checklist e roteiro Andrômeda — uma tarde de
    consolidação elimina a maior parte das dúvidas recorrentes nas reuniões de área.
 4. **Enquanto o OS estiver instável, separe cobrança de score de cobrança de entrega.** O time aceita
    a régua; contesta — com razão — número divergente no dashboard.
