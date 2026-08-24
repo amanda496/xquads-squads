@@ -8,6 +8,12 @@
 entrega, com que método, com que réguas, em que ritmo e onde estão os gargalos. O handover das
 **pessoas** está em [`../dossies-gestores-trafego/`](../dossies-gestores-trafego/README.md).
 
+> **Como ler este documento.** É um **diagnóstico do estado atual da área**, não um plano a ser
+> executado. Quem assumir **herda todas as atividades** — inclusive as que hoje dependem do OK da
+> liderança e as que estão em construção — e **decide o que mantém, o que muda e o que descontinua**.
+> Onde há sugestão ou ordem de prioridade neste dossiê, é leitura de quem sai, não instrução para
+> quem entra.
+
 **Fonte:** reuniões de área, reuniões de resultados (Blocos A/B e, a partir de agosto, por squad),
 dailies de tráfego, dailies de líderes, X1s, o ciclo de PRA de julho, a pauta de resultados
 apresentada ao CEO em 04/08 e a documentação de processo da área. Cobertura detalhada no final.
@@ -397,9 +403,8 @@ Invictus. **É o item de agenda mais fácil de melhorar e o de maior retorno ime
 ## 7. A estrutura do ClickUp — as listas do tráfego
 
 O ClickUp é onde a operação é cobrada e verificada. O que importa em cada lista é **o prazo e a quem a
-atividade se aplica** — porque não é a mesma coisa para todos os gestores. Oito listas detalhadas
-abaixo: seis em operação, uma criada e nunca iniciada, uma em construção. Inventário com status no
-final da seção.
+atividade se aplica** — porque não é a mesma coisa para todos os gestores. **São oito listas:** seis em
+operação, uma criada e nunca iniciada, uma em construção. Inventário com status no final da seção.
 
 ### Quadro de prazos da área
 
@@ -545,20 +550,18 @@ está vazia.
 | 7 | **Teste Tráfego** | **Criada, nunca iniciada** — processo não desenhado |
 | 8 | **Otimização 2.0** | **Em construção** — assume o lugar da Lista 3 |
 
-**Uma checagem antes de apresentar:** o levantamento começou com **"cinco listas do tráfego"** e o
-inventário fechou em **oito** — seis em operação, uma vazia e uma em construção. Vale conferir a
-contagem e o nome exato de cada uma no ClickUp antes de apresentar.
+### O que vem junto com as listas
 
-**O padrão que aparece em quatro delas:** tarefa-mãe da liderança + tarefa-filha por gestor, e
-fechamento **em análise / em revisão** com OK da liderança — não por autodeclaração. É o mecanismo de
-verificação da área, e é o que sustenta o pilar de metas. **Se a nova liderança não assumir o papel de
-quem dá o OK, quatro listas param de fechar.**
+**O papel de quem dá o OK.** Quatro listas — Controle de Orçamento, Otimização de campanhas,
+Atualizar públicos e Relatório semanal — seguem o mesmo desenho: **tarefa-mãe da liderança +
+tarefa-filha por gestor**, com fechamento **em análise / em revisão**, nunca por autodeclaração. Hoje
+quem dá o OK é a Head; **esse papel passa para quem assumir**. É o mecanismo de verificação que
+sustenta o pilar de metas — as tarefas ficam abertas até alguém aprovar.
 
-**A leitura de conjunto:** de oito listas, **três estão em obra ao mesmo tempo** — a Biblioteca de
-anúncios com dois processos sobrepostos, a Otimização migrando para a 2.0 e a Teste Tráfego nunca
-iniciada. É muita mudança de estrutura para entregar numa transição de liderança, e vale escolher a
-ordem: fechar a Biblioteca (que já atrapalha hoje), concluir a 2.0 (que tem histórico em risco) e
-deixar a Teste Tráfego para depois, quando houver dono.
+**Três listas chegam em obra.** A Biblioteca de anúncios com dois processos sobrepostos, a Otimização
+migrando para a versão 2.0 e a Teste Tráfego criada e nunca iniciada. **As três ficam abertas para
+decisão de quem assume** — continuar, refazer ou descontinuar. O dossiê registra o estado em que
+estão, não o caminho a seguir.
 
 ---
 
@@ -736,26 +739,32 @@ desempenho da liderança e plano de redistribuição em andamento.
 
 ---
 
-## 13. O que a nova liderança precisa saber na primeira semana
+## 13. O que está na mesa para quem assume
 
-1. **A prioridade única de agosto já está definida e é mensurável:** 100% da operação no Stark OS até
-   30/08, seguindo o método do Lúcio. Verificação gestor a gestor, semanal. Não invente prioridade
-   nova antes de fechar essa.
+O que está aberto na data de corte, com a leitura de quem sai. **Todas as decisões abaixo são de quem
+assume** — o que segue, o que muda e o que para.
+
+1. **A prioridade que agosto já tinha, e é mensurável:** 100% da operação no Stark OS até 30/08,
+   seguindo o método do Lúcio, com verificação gestor a gestor. É o compromisso que a área assumiu
+   com o CEO em 04/08 — vale saber que ele existe antes de definir uma prioridade nova.
 2. **O gargalo é o fundo de funil, não o topo.** O topo está em rota (CPS −7,3%, 61% na meta). Meio e
    fundo estão em 9,1% e 6,5% de adequação. É onde está o resultado que o cliente sente.
-3. **Comece a consolidação da documentação pelo CPS.** A métrica que remunera o time mudou de fórmula
-   e de meta (R$ 2,00 sobre custo de topo ÷ seguidores pagos) e a documentação inteira ainda descreve
-   a base antiga. Depois dela vêm Playbook, Processos, Checklist e roteiro Andrômeda — uma tarde de
-   consolidação elimina a maior parte das dúvidas recorrentes nas reuniões de área.
+3. **A documentação do CPS é o item mais desatualizado.** A métrica que remunera o time mudou de
+   fórmula e de meta (R$ 2,00 sobre custo de topo ÷ seguidores pagos) e a documentação inteira ainda
+   descreve a base antiga — documento para estrategistas, planilha de acompanhamento e pilar de
+   metas. Playbook, Processos, Checklist e roteiro Andrômeda têm divergências do mesmo tipo, de menor
+   impacto.
 4. **Enquanto o OS estiver instável, separe cobrança de score de cobrança de entrega.** O time aceita
    a régua; contesta — com razão — número divergente no dashboard.
 5. **Reequilibre as carteiras antes de cobrar profundidade.** Vinicius (17) e Gustavo (15) não têm
    como fazer meio e fundo em todas as contas no ritmo pedido.
 6. **Reduza a densidade de reunião.** Quatro reuniões de área por semana mais o squad é mais tempo de
    call do que de conta. O pedido já veio do time, por dois caminhos independentes.
-7. **Duas decisões de pessoal estão herdadas em aberto** (Luiz Eduardo e o pleito de mérito do
-   Thiago) e as duas têm risco real de perda de pessoa. Detalhe em
+7. **Duas decisões de pessoal chegam em aberto** — Luiz Eduardo e o pleito de mérito do Thiago — e as
+   duas têm risco real de perda de pessoa. Detalhe em
    [`../dossies-gestores-trafego/`](../dossies-gestores-trafego/README.md).
+8. **As oito listas do ClickUp são herdadas inteiras**, com o papel de aprovação que quatro delas
+   exigem e as três que estão em obra. Nenhuma decisão sobre elas foi tomada por antecipação.
 
 ---
 
