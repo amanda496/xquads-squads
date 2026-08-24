@@ -1,8 +1,8 @@
 # Dossiê da Área de Tráfego Pago · Stark Marketing
 
-> **Confidencial — uso restrito da liderança.** Contém números de carteira, dados de cliente,
-> avaliação de desempenho por gestor e situações de pessoal em aberto. Se este repositório for
-> público ou vier a ser publicado, mover esta pasta para um local privado.
+> **Confidencial — uso restrito da liderança.** Contém estrutura de carteira, réguas internas,
+> nomes de cliente e situações de pessoal em aberto. Se este repositório for público ou vier a ser
+> publicado, mover esta pasta para um local privado.
 
 **Data de corte:** 21/08/2026. **Finalidade:** handover da **área** — como ela funciona, o que
 entrega, com que método, com que réguas, em que ritmo e onde estão os gargalos. O handover das
@@ -45,7 +45,7 @@ A lógica da régua anterior era a de que "todas as campanhas resgatam seguidore
 considerado era o total (06/02/2026). A régua atual isola o que o topo de funil efetivamente entregou.
 
 > ⚠ **Consequência prática:** série histórica apurada na régua anterior **não é comparável** com a
-> nova sem recálculo. Todos os números de julho neste dossiê foram apurados na régua antiga.
+> nova sem recálculo. Qualquer comparação com meses anteriores precisa refazer a conta na base nova.
 
 ### As 11 entregas da área
 
@@ -82,70 +82,7 @@ métrica é estimada, se o dado não existe a seção é omitida.
 
 ---
 
-## 2. Os números de julho/2026
-
-Da pauta apresentada ao CEO e ao Gerente de Operações em 04/08. **Todos os valores desta seção foram
-apurados na régua anterior de CPS** (custo total da conta ÷ variação de seguidores do Reportei, meta
-R$ 2,59) — ver a ressalva na seção 1.
-
-| Indicador (julho) | Sem 1 | Sem 2 | Sem 3 | Sem 4 | Sem 5 | Leitura |
-|---|---|---|---|---|---|---|
-| **CPS Topo da área (agregado)** | R$ 1,65 | R$ 1,85 | R$ 1,57 | R$ 1,51 | R$ 1,53 | **−7,3% no mês** |
-| **% de clientes na meta** (CPS ≤ R$ 2,59 — régua da época) | 59,0% | 57,0% | 59,3% | 65,1% | 61,0% | média 60,3% |
-| CPS médio por cliente | R$ 3,26 | R$ 3,69 | R$ 3,52 | R$ 2,94 | R$ 4,01 | Sem 5 distorcida por outlier |
-| % na meta — CPS Total | 26,5% | 25,6% | 25,6% | 25,3% | 37,8% | +11 p.p. na Sem 5 |
-
-- **55 de 96 contas na meta** na última semana; 49 contas melhoraram o CPS, 38 pioraram, 9 sem dados.
-- **62,5% da carteira (60/96) já dentro da estrutura Andrômeda.** Das 77 contas no escopo: **44,2%
-  concluíram o topo de funil, 9,1% o meio e 6,5% o fundo.**
-- **38 de 87 contas com dados fecharam o mês acima da meta de CPS Topo.**
-- **CPA do Google na meta em 61% das contas** — dado menos consolidado que o CPS, tratado como
-  acompanhamento em estruturação.
-
-### Por gestor
-
-| Gestor | Contas | % na meta (CPS Topo) | % dentro do Andrômeda | CPS Sem 1 → Sem 5 | Var. mês |
-|---|---|---|---|---|---|
-| **Mateus** | 11 | **72,7%** | 66,7% | R$ 1,69 → R$ 1,33 | −21,0% |
-| **Wallison** | 12 | 58,3% | 66,7% | R$ 2,39 → R$ 1,42 | **−40,6%** |
-| **Thiago** | 14 | 57,1% | 71,4% | R$ 1,13 → R$ 1,18 | +4,2% |
-| **Richard** | 2 | 100% | 50,0% | R$ 1,53 → R$ 0,57 | −62,9% |
-| **Vinicius** | 17 | 52,9% | 56,3% | R$ 2,43 → R$ 2,42 | −0,8% |
-| **Luiz Eduardo** | 15 | 46,7% | 68,8% | R$ 2,09 → R$ 2,42 | +16,1% |
-| **Nicole** | 10 | 40,0% | 80,0% | R$ 1,81 → R$ 2,28 | +25,6% |
-| **Gustavo** | 15 | 40,0% | **35,7%** | R$ 1,37 → R$ 1,46 | +6,8% |
-| **TOTAL** | **96** | **53,1%** | **62,5%** | **R$ 1,65 → R$ 1,53** | **−7,3%** |
-
-**A correlação que a própria área registrou:** quem está dentro da estrutura Andrômeda tende a
-segurar o CPS. As duas exceções ao padrão são Gustavo (menor adesão do time) e Nicole (adesão alta,
-80%, mas CPS subindo — dois meses de casa).
-
-### Contas críticas e destaques
-
-**Críticas (CPS Topo médio do mês acima da meta):** Dr Victor Augusto / Luiz — R$ 21,53 (Sem 5
-explodiu para R$ 78,36) · Dr. Matheus Ocampo / Vinicius — R$ 21,28 (em recuperação) · Dr Fernando
-Froes / Nicole — R$ 15,63 · Dr. Marc DuPéré / Thiago — R$ 11,26 (piorando) · Dr. Vinicius Camargo /
-Thiago — R$ 9,17 (em recuperação) · Dr Humberto Faleiros / Luiz — R$ 8,38 (lateralizado acima da
-meta o mês todo).
-
-**Melhores:** Dra Lenise Franco R$ 0,24 · Dr. Eduardo Uebel R$ 0,62 · Dr. Carlos Matheus R$ 0,71 ·
-Dr. Alvaro R$ 0,73 · Dra. Graciela Machado R$ 0,78. **Case de virada:** Dr Matheus Manica (Thiago),
-de R$ 19,17 na Sem 2 para R$ 0,47 na Sem 5.
-
-### CRM e qualificação — a virada de tese em curso
-
-- **~50 clientes já integrados ao CRM**, dos quais **~30 no modelo Concierge**.
-- **~40 clientes com listas reais** de e-mail/telefone, que permitem upload de CSV direto no pixel.
-- **Proposta em curso:** força-tarefa de integração CRM + pixel em toda a carteira, priorizando
-  **lead qualificado em vez de seguidor barato**. Até a integração completa, a operação roda **dois
-  métodos em paralelo**.
-
-Essa é a mudança estratégica mais importante em aberto: a área foi construída sobre CPS e está
-migrando para uma régua de qualificação. As duas réguas convivem hoje.
-
----
-
-## 3. Pessoas e estrutura
+## 2. Pessoas e estrutura
 
 ### Quem responde pelo quê
 
@@ -198,9 +135,9 @@ contratual, não preferência).
 
 ---
 
-## 4. O método
+## 3. O método
 
-### 4.1 A estrutura de funil e a regra de verba
+### 3.1 A estrutura de funil e a regra de verba
 
 **70% TOFU · 10% MOFU · 20% BOFU.** O desvio é permitido, mas tem de ser decisão consciente entre
 estrategista e gestor — não default.
@@ -216,7 +153,7 @@ estrategista e gestor — não default.
 **CPL de referência por especialidade:** cirurgia plástica R$ 6–15 · implante dental R$ 25–55 ·
 cirurgia ortognática R$ 20–50.
 
-### 4.2 Teste e escala
+### 3.2 Teste e escala
 
 **Regra de ouro: testar em ABO, escalar em CBO.**
 
@@ -227,7 +164,7 @@ cirurgia ortognática R$ 20–50.
   **67% para escala do melhor esforço, 33% para novos testes**; pausar de vez só quando os
   substitutos saírem do aprendizado.
 
-### 4.3 Andrômeda — o método atual
+### 3.3 Andrômeda — o método atual
 
 Apresentado em maio/2026 como resposta à atualização do algoritmo do Meta. A lógica:
 
@@ -246,7 +183,7 @@ Apresentado em maio/2026 como resposta à atualização do algoritmo do Meta. A 
 sell, demonstrativos, antes e depois, comparativos · C3 prova social, quebra das 5 objeções (preço,
 tempo, confiança, adequação, urgência), urgência real. **CTA único no fundo: mensagem no WhatsApp.**
 
-### 4.4 Nomenclatura — o que sustenta a medição
+### 3.4 Nomenclatura — o que sustenta a medição
 
 Padrão de três níveis, obrigatório. Não é burocracia: **o Stark OS extrai os resultados a partir do
 nome da campanha. Nomenclatura errada = resultado errado do gestor.**
@@ -264,7 +201,7 @@ Tags em uso na prática: `[PRA]`, `[ANDROMEDA]`, `[ESCALA]`, `[TESTE]`, `[ADV]`/
 **UTMs são obrigatórias em todos os anúncios**, sem exceção — Meta via parâmetros de URL, Google no
 nível de conta.
 
-### 4.5 Regras inegociáveis
+### 3.5 Regras inegociáveis
 
 **Meta Ads** — o gestor não pode alterar:
 
@@ -283,7 +220,7 @@ extensões de imagem obrigatórias · termos genéricos ("melhor cirurgião da c
 Google Meu Negócio vinculado. Proibido em imagem: antes/depois com exposição de pele, cicatriz
 aberta, centro cirúrgico.
 
-### 4.6 Criativo e conteúdo
+### 3.6 Criativo e conteúdo
 
 - **Framework de consciência (Schwartz), P0 a P5**, mapeado para funil e CTA: P0 inconsciente →
   "compartilhe com uma amiga"; P1 ciente do problema → "siga para mais conteúdo"; P2 ciente da
@@ -298,7 +235,7 @@ aberta, centro cirúrgico.
 - **Regra de conteúdo antes de público:** "Se os resultados não estão bons, solicitar novo conteúdo
   ANTES de trocar públicos."
 
-### 4.7 Decisões técnicas que entraram em 2026
+### 3.7 Decisões técnicas que entraram em 2026
 
 | Quando | O que |
 |---|---|
@@ -314,7 +251,7 @@ aberta, centro cirúrgico.
 
 ---
 
-## 5. Réguas, metas e remuneração variável
+## 4. Réguas, metas e remuneração variável
 
 ### O sistema de 7 pilares (vigente desde fevereiro/2026)
 
@@ -376,7 +313,7 @@ Cliente.
 
 ---
 
-## 6. Rituais e cadências
+## 5. Rituais e cadências
 
 A área mudou de ritmo três vezes em seis meses. Vale conhecer a sequência, porque cada mudança
 resolveu um problema e criou outro.
@@ -400,7 +337,7 @@ Invictus. **É o item de agenda mais fácil de melhorar e o de maior retorno ime
 
 ---
 
-## 7. A estrutura do ClickUp — as listas do tráfego
+## 6. A estrutura do ClickUp — as listas do tráfego
 
 O ClickUp é onde a operação é cobrada e verificada. O que importa em cada lista é **o prazo e a quem a
 atividade se aplica** — porque não é a mesma coisa para todos os gestores. **São oito listas:** seis em
@@ -565,7 +502,7 @@ estão, não o caminho a seguir.
 
 ---
 
-## 8. Processos documentados
+## 7. Processos documentados
 
 A área tem **11 processos escritos** (documento "Processos Área de Tráfego", fev/2026, e o Playbook
 de Onboarding v1.0, abr/2026). Resumo do que existe e onde está o risco de cada um:
@@ -591,7 +528,7 @@ chute; feeling com estrutura é expertise."*
 
 ---
 
-## 9. Stack e a virada tecnológica de 2026
+## 8. Stack e a virada tecnológica de 2026
 
 ### O que a área usa
 
@@ -639,7 +576,7 @@ não é contexto; é preciso descrever características, histórico de incidente
 
 ---
 
-## 10. Linha do tempo da área — out/2025 a ago/2026
+## 9. Linha do tempo da área — out/2025 a ago/2026
 
 | Quando | O que aconteceu |
 |---|---|
@@ -655,7 +592,7 @@ não é contexto; é preciso descrever características, histórico de incidente
 
 ---
 
-## 11. Gargalos e riscos estruturais
+## 10. Gargalos e riscos estruturais
 
 **1. O fundo de funil é o gargalo — e é conhecido.** 44,2% das contas concluíram a adequação de topo,
 mas só **9,1% o meio e 6,5% o fundo**. Toda a energia de julho foi para o topo. É onde está o
@@ -669,6 +606,11 @@ pilar de sete da remuneração do time depende de um dado de terceiro não audit
 **3. Duas metodologias em paralelo.** Andrômeda + estrutura anterior, até a integração completa de
 CRM + pixel. Foi decisão consciente e comunicada ao CEO, mas significa que **o padrão da área hoje
 não é único** — e quem assumir vai encontrar contas em dois mundos.
+
+Por trás disso há uma **virada de tese em curso**: cerca de **50 clientes já integrados ao CRM**
+(≈30 no modelo Concierge) e **~40 com listas reais** prontas para upload de CSV no pixel, com a
+proposta de priorizar **lead qualificado em vez de seguidor barato**. A área foi construída sobre CPS
+e está migrando para uma régua de qualificação — as duas convivem hoje.
 
 **4. A documentação está atrás da prática — e o CPS é o caso mais grave.** A métrica-mãe da área
 mudou de fórmula **e** de meta (de custo total ÷ variação do Reportei, meta R$ 2,59, para custo de
@@ -717,7 +659,7 @@ desempenho da liderança e plano de redistribuição em andamento.
 
 ---
 
-## 12. Pendências e decisões abertas na data de corte
+## 11. Pendências e decisões abertas na data de corte
 
 | Pendência | Dono | Prazo | Situação |
 |---|---|---|---|
@@ -739,7 +681,7 @@ desempenho da liderança e plano de redistribuição em andamento.
 
 ---
 
-## 13. O que está na mesa para quem assume
+## 12. O que está na mesa para quem assume
 
 O que está aberto na data de corte, com a leitura de quem sai. **Todas as decisões abaixo são de quem
 assume** — o que segue, o que muda e o que para.
@@ -747,8 +689,8 @@ assume** — o que segue, o que muda e o que para.
 1. **A prioridade que agosto já tinha, e é mensurável:** 100% da operação no Stark OS até 30/08,
    seguindo o método do Lúcio, com verificação gestor a gestor. É o compromisso que a área assumiu
    com o CEO em 04/08 — vale saber que ele existe antes de definir uma prioridade nova.
-2. **O gargalo é o fundo de funil, não o topo.** O topo está em rota (CPS −7,3%, 61% na meta). Meio e
-   fundo estão em 9,1% e 6,5% de adequação. É onde está o resultado que o cliente sente.
+2. **O gargalo é o fundo de funil, não o topo.** A adequação ao método está em 44,2% no topo, **9,1%
+   no meio e 6,5% no fundo**. É onde está o resultado que o cliente sente.
 3. **A documentação do CPS é o item mais desatualizado.** A métrica que remunera o time mudou de
    fórmula e de meta (R$ 2,00 sobre custo de topo ÷ seguidores pagos) e a documentação inteira ainda
    descreve a base antiga — documento para estrategistas, planilha de acompanhamento e pilar de
